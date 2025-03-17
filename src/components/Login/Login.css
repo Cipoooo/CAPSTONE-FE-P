@@ -71,11 +71,9 @@
      display: flex;
      align-items: center;
  }
- .checkbox>p{
-     margin-left: 20px;
-     font-size: 0.8rem;
-     font-weight: 200;
-     vertical-align: middle;
+ .checkboxpp{
+     padding-left: 10px;
+     margin-bottom: 0%;
  }
  .email ,.password{
      display: flex;

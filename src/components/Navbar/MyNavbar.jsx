@@ -46,7 +46,7 @@ function MyNavbar() {
       <Container className='d-flex justify-content-around px-0'>
         <Navbar.Brand>
           <Link to={"/"}>
-            <img height={"30px"} width={"30px"} src='https://imgs.search.brave.com/NGepRJmgPKnbvsANF10fZJRr4bfP9dY3rJ39DMuDxb0/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/Y29sbGluc2RpY3Rp/b25hcnkuY29tL2lt/YWdlcy90aHVtYi9o/YXJlXzI5Mjc0MDU3/Ml8yNTAuanBnP3Zl/cnNpb249Ni4wLjY4'/>
+            <img height={"50px"} width={"150px"} src='../src/assets/epigames_logo.png'/>
           </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

@@ -24,7 +24,7 @@ const Register = () =>{
             </div>
             <div className="remember-forgot">
                 <div className="checkboxP">
-                     <input className="checkbox" type="checkbox"/><p className="text-white" >Remember me</p>
+                     <input className="checkbox" type="checkbox"/><p className="checkboxpp text-white" >Remember me</p>
                 </div>
             </div>
                 <div className="registerBtn">

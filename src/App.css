@@ -1,6 +1,12 @@
+*{
+    font-family: 'Poppins';
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Inter';
+}
 body {
-    background: #10011d;
-    margin-top: 0;
+background: #10011d;
+margin-top: 0;
 /*background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgb(43, 12, 104) 100%);
 background-repeat: no-repeat;*/
 height: 100vh;
