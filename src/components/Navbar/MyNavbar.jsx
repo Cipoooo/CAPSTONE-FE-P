@@ -1,28 +1,48 @@
-import { useState } from 'react';
+import { useState, useEffect, } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Button, FormControl } from 'react-bootstrap';
 import "../Navbar/MyNavbar.css";
+import { useDispatch, useSelector } from 'react-redux';
+import { setSearchQuery } from '../../redux/action/query';
 import { Link } from 'react-router-dom';
-import { BiSearch } from 'react-icons/bi';
+import {BiSearch} from 'react-icons/bi';
 
 function MyNavbar() {
   const [showSearch, setShowSearch] = useState(false);
-  const [query, setQuery] = useState("");
+  const query = useSelector((state) => state.search.query);
   const navigate = useNavigate();
+  const dispatch = useDispatch();
 
-  // Funzione per gestire il cambio del valore dell'input
   const handleSearchChange = (e) => {
-    setQuery(e.target.value);
-    if (e.target.value.length > 0) {
-      navigate(`/search?q=${e.target.value}`);
+    const searchText = e.target.value;
+    dispatch(setSearchQuery(searchText)); 
+
+    if (searchText.length > 0) {
+      navigate(`/search`);
     }
   };
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 100) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   return (
-    <Navbar fixed='top' className="Navbg w-100 text-white px-0 ">
+    <Navbar fixed='top' className={`w-100 text-white px-0 ${scrolled ? "scrolled-NavBg" : "NavBg"}`}>
       <Container className='d-flex justify-content-around px-0'>
         <Navbar.Brand>
           <Link to={"/"}>

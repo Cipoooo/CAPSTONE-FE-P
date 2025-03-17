@@ -1,9 +1,14 @@
 .Navbg{
-    background-color: #eeeeee;
+    background-color: transparent;
     display: flex;
     flex-direction: row;
     width: 100%;
     height: 60px;
+    transition: transparent 1.3s ease-in-out;
+}
+.scrolled-NavBg{
+    transition:  0.3s ease-in-out;
+    background-color: white;
 }
 .SearchBtn{
     background-color: #6132ad;
@@ -48,7 +53,7 @@
     width: 100px;
     position: absolute;
     top: 60px;
-    left: 61%;
+    left: 59.5%;
     transform: translateX(-50%);
     width: 50%;
     padding: 5px;
@@ -59,8 +64,10 @@
 .search-input {
     width: 50%;
     padding: 8px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     background-color: white;
-    border: 1px solid transparent;
+    border: 3px solid purple;
     border-radius: 20px;
     font-size: 16px;
 }

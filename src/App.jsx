@@ -12,6 +12,7 @@ import Profilo from './components/Profilo/Profilo';
 import SingleGame from './components/SingleGame/SingleGame.jsx';
 import Login from './components/Login/Login.jsx';
 import Register from './components/Register/Register.jsx';
+import Searchpage from './components/Searchpage/SearchPage.jsx';
 
 
 const App = () => {
@@ -42,6 +43,7 @@ const App = () => {
         <Route path='/game' element={<SingleGame></SingleGame>}></Route>
         <Route path="/login" element={<Login></Login>}></Route>
         <Route path="/register" element={<Register></Register>}></Route>
+        <Route path="/search" element={<Searchpage></Searchpage>}></Route>
       </Routes>
       <MyFooter></MyFooter>
       </BrowserRouter>

@@ -9,7 +9,6 @@ const  MyMain = () => {
 
     const [videogiochi, setVideogiochi] = useState([]);
 
-    // Funzione per caricare i videogiochi dalla tua API
     const loadVideogiochi = async () => {
       try {
         const response = await axios.get('http://localhost:8080/api/videogiochi');
@@ -19,7 +18,6 @@ const  MyMain = () => {
       }
     };
   
-    // Carica i videogiochi quando il componente si monta
     useEffect(() => {
       loadVideogiochi();
     }, []);
