@@ -46,7 +46,7 @@ function MyNavbar() {
       <Container className='d-flex justify-content-around px-0'>
         <Navbar.Brand>
           <Link to={"/"}>
-            <img height={"50px"} width={"150px"} src='../src/assets/epigames_logo.png'/>
+            <img height={"50px"} width={"150px"} src='../src/assets/epicode_logo.png'/>
           </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
