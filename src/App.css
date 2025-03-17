@@ -1,0 +1,7 @@
+body {
+    background: #32175e;
+    margin-top: 0;
+/*background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgb(43, 12, 104) 100%);
+background-repeat: no-repeat;*/
+height: 100vh;
+}

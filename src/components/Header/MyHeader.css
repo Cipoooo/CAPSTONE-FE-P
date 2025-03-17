@@ -1,0 +1,37 @@
+.Carousel{
+    background-color: transparent;
+    margin-top: 70px;
+    height: 300px;
+    width: 100%;
+}
+.CarouselTitle{
+    font-size: 1.5rem;
+  color: white;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+.CarouselPrice{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ffcc00; 
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+.CarouselItem {
+    display: flex;
+    justify-content: center; /* Centra orizzontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 300px; /* Altezza del carosello */
+    /*background-color: rgba(0, 0, 0, 0.7); /* Sfondo semi-trasparente per visibilità */
+    text-align: center;
+  }
+  .CarouselImgContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+    height: 100%;
+  }
+  .CarouselImg{
+    max-width: 100%; 
+    max-height: 100%;
+    object-fit: contain;
+  }

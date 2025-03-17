@@ -1,0 +1,43 @@
+.ImgMain:hover{
+    transform: scale(1.05);
+}
+.VerticalSpacer{
+    border: solid 0.5px rgb(5, 5, 5);
+    height: 70px;
+    margin-top: 10px;
+}
+.MainContainer{
+    padding-left: 0;
+}
+.GameBg{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  background-color: #e9e9e9;
+  border-radius: 5px;
+}
+.PlatformBg{
+    background-color: #e9e9e9;
+    padding-bottom: 10px;
+}
+.PlatformLogo{
+    width: 50px;
+    height: 50px;
+}
+.Sezione3{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.Sezione3{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.Sezione3{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.h3{
+    text-decoration-line: none !important;
+    color: white;
+}

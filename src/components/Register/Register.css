@@ -1,0 +1,126 @@
+.ContainerBg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.logo{
+     display: flex;
+     justify-content: center;
+ }
+ .logo img{
+     top: 50px;
+     /*position: absolute;*/
+     width: 300px;
+     height: 200px;
+ }
+ .flex{
+    position: absolute;
+    width: 450px;
+    min-height: 400px;
+    border: 1px solid transparent;
+    border-radius: 5%;
+    box-shadow: 0 0 1em white;
+    border: solid 2px rgb(197, 166, 30);
+    background-color: transparent;
+    backdrop-filter: blur(40px);
+ }
+ form{
+     line-height: 2;
+     padding: 10% 10%;
+     cursor: pointer;
+
+ }
+ form h1{
+     display: flex;
+     justify-content: center;
+     font-family:'Roboto' ;
+     font-size: 5rem;
+     font-weight: 900;
+     color:  #f8f0ff;
+ }
+ form a{
+     text-decoration: none;
+     font-weight: 500;
+     font-size: 1.0rem;color: white;
+ }
+ form a:hover{
+     font-size: 1.2rem;
+     color: #ffb300;
+ }
+ label{
+     padding: 10px 0;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 1.2rem;
+     font-weight: 400;
+     color:  #f8f0ff;
+ }
+ input{
+     text-decoration: white;
+     color: black;
+     font-size: 1rem;
+     text-align: left;
+     height: 30px;
+     vertical-align: middle;   
+     border: solid 2px white;
+     background-color: transparent;
+     padding: 5px 10px;
+     border-radius: 30px;
+ }
+ .checkboxP{
+     display: flex;
+     align-items: center;
+ }
+ .checkbox>p{
+     margin-left: 20px;
+     font-size: 0.8rem;
+     font-weight: 200;
+     vertical-align: middle;
+ }
+ .email ,.password{
+     display: flex;
+     flex-direction: column;
+ }
+ .email>input,.password>input{
+     box-shadow: 0 0 1em white;
+     width: 100%;
+     margin-bottom: 20px;
+ }
+ .remember-forgot{
+     display: flex;
+     justify-content: space-between;
+     vertical-align: middle;
+ }
+ .registerBtn{
+     display: flex;
+     justify-content: center;
+     width: 100%;
+     height: 30px;
+     padding-top: 10px;
+ }
+ .registerBtn>button{
+     cursor: pointer;
+     font-size: 1.0rem;
+     height: 40px;
+     width: 40%;
+     color: rgb(255, 254, 254);
+     background-color: transparent;
+     border: solid 2px;
+     border-radius: 40px;
+     box-shadow: 0 0 2em orange;
+     padding: 0 20px;
+ }
+ .registerBtn>button:hover{
+     background-color: #f8f0ff;
+     color: black;
+ } 
+ .links{
+     display: flex;
+     justify-content: center;
+     padding-top: 10px;
+ }
+ .links> p{
+     color: white;
+     font-size: 1.2rem;
+     font-family: 'Roboto';
+ }
