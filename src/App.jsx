@@ -13,6 +13,14 @@ import SingleGame from './components/SingleGame/SingleGame.jsx';
 import Login from './components/Login/Login.jsx';
 import Register from './components/Register/Register.jsx';
 import Searchpage from './components/Searchpage/SearchPage.jsx';
+import Xbox from './components/Xbox/Xbox.jsx';
+import XboxSeries from './components/Xbox Series/Xbox Series.jsx';
+import XboxOne from './components/Xbox One/Xbox One.jsx';
+import PlayStation from './components/Playstation/Playstation.jsx';
+import PS4 from './components/PS4/PS4.jsx';
+import PS5 from './components/PS5/Ps5.jsx';
+import Nintendo from './components/Nintendo/Nintendo.jsx';
+import PC from './components/PC/PC.jsx';
 
 
 const App = () => {
@@ -44,6 +52,14 @@ const App = () => {
         <Route path="/login" element={<Login></Login>}></Route>
         <Route path="/register" element={<Register></Register>}></Route>
         <Route path="/search" element={<Searchpage></Searchpage>}></Route>
+        <Route path="/Xbox" element={<Xbox></Xbox>}></Route>
+        <Route path="/XboxSeries" element={<XboxSeries></XboxSeries>}></Route>
+        <Route path="/XboxOne" element={<XboxOne></XboxOne>}></Route>
+        <Route path="/Playstation" element={<PlayStation></PlayStation>}></Route>
+        <Route path="/PS4" element={<PS4></PS4>}></Route>
+        <Route path="/PS5" element={<PS5></PS5>}></Route>
+        <Route path="/Nintendo" element={<Nintendo></Nintendo>}></Route>
+        <Route path="/PC" element={<PC></PC>}></Route>
       </Routes>
       <MyFooter></MyFooter>
       </BrowserRouter>
