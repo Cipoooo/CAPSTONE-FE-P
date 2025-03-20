@@ -9,7 +9,7 @@ import MyMain from './components/Main/MyMain';
 import MyFooter from './components/Footer/MyFooter';
 import Carrello from "./components/Carrello/Carrello";
 import Profilo from './components/Profilo/Profilo';
-import SingleGame from './components/SingleGame/SingleGame.jsx';
+import GameDetails from './components/GameDetails/GameDetails.jsx';
 import Login from './components/Login/Login.jsx';
 import Register from './components/Register/Register.jsx';
 import Searchpage from './components/Searchpage/SearchPage.jsx';
@@ -49,7 +49,7 @@ const App = () => {
         <Route path="/" element={<MyMain/>}></Route>
         <Route path='/carrello' element={<Carrello></Carrello>}></Route>
         <Route path='/profilo' element={<Profilo></Profilo>}></Route>
-        <Route path='/game' element={<SingleGame></SingleGame>}></Route>
+        <Route path='/game/:id' element={<GameDetails></GameDetails>}></Route>
         <Route path="/login" element={<Login></Login>}></Route>
         <Route path="/register" element={<Register></Register>}></Route>
         <Route path="/search" element={<Searchpage></Searchpage>}></Route>
@@ -64,6 +64,7 @@ const App = () => {
 
         <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>
+      <MyFooter></MyFooter>
       </BrowserRouter>
     </Container>
   );

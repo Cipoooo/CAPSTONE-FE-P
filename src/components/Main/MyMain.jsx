@@ -30,15 +30,15 @@ const  MyMain = () => {
       <Row className="gx-2 gy-2">
           <Link to={"/tendenza"}><h3 className="h3">In Tendenza <i class="bi bi-chevron-double-right text-white"></i></h3></Link>
         {videogiochi.slice(96).map((videogioco,i)=>(
-            <Col key={i} className="col-6 col-md-6 col-xl-3 col-xxl-2 px-0 d-inline">
-              <Link to={"/game"}><div className="GameBg">
+            <Link to={`/game/${videogioco.id}`}><Col key={i} className="col-6 col-md-6 col-xl-3 col-xxl-2 px-0 d-inline">
+              <div className="GameBg">
                     <img className="ImgMain" height={"100px"} width={"100px"} src={videogioco.copertinaUrl} alt="CopertinaVideogioco" />
                     <div className="d-flex flex-column justify-content-centre"> 
                       <h6 className="text-white m-0 p-0">{videogioco.titolo}</h6>
                       <p className="text-danger m-0 p-0">{videogioco.prezzo}£</p>
                     </div>
-                </div></Link>
-            </Col>
+                </div>
+            </Col></Link>
         ))}
         </Row>
         <br />
