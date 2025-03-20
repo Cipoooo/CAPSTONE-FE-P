@@ -49,11 +49,15 @@
     margin-right: 20px;
     margin-left: 20px;
 }
+.SearchbarImages:hover{
+    width: 35px;
+    height: 35px;
+}
 .search-input-container {
     width: 100px;
     position: absolute;
     top: 60px;
-    left: 59.5%;
+    left: 62.5%;
     transform: translateX(-50%);
     width: 50%;
     padding: 5px;

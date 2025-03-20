@@ -52,10 +52,10 @@ function MyNavbar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         
         <div className='SearchbarIcons'>
-          <Link to={"/xbox"}><img className='SearchbarImages' src='../src/assets/xbox.svg'/></Link>
-          <Link to={"/playstation"}><img className='SearchbarImages' src='../src/assets/playstation.svg'/></Link>
-          <Link to={"/nintendo"}><img className='SearchbarImages' src='../src/assets/nintendo-switch.svg'/></Link>
-          <Link to={"/pc"}><img className='SearchbarImages' src='../src/assets/pc-display.svg'/></Link>
+          <Link to={"/Xbox"}><img className='SearchbarImages' src='../src/assets/xbox.svg'/></Link>
+          <Link to={"/Playstation"}><img className='SearchbarImages' src='../src/assets/playstation.svg'/></Link>
+          <Link to={"/Nintendo"}><img className='SearchbarImages' src='../src/assets/nintendo-switch.svg'/></Link>
+          <Link to={"/PC"}><img className='SearchbarImages' src='../src/assets/pc-display.svg'/></Link>
           <Nav>
             <Button className="SearchBtn" onClick={() => setShowSearch(!showSearch)}>
               <BiSearch className="fs-5 text-white" />

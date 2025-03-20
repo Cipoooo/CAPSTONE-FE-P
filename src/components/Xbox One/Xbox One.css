@@ -1,0 +1,28 @@
+body{
+    margin-top: 100px;
+
+}
+.Sezione1{
+}
+.buttonXbox{
+    border: solid 2px white;
+    background-color: transparent;
+    color: #ebe9fc;
+}
+.buttonXbox:hover{
+
+    font-size: 1.1rem;
+    background-color: #6132ad;
+    color: ebe9fc;
+    box-shadow: #ebe9fc;
+}
+.XboxImageContainer{
+    padding-right: 30%;
+    padding-left: 30%;
+    width: 100%;
+    min-height: 350px;
+}
+.XboxImg{
+    height: 100%;
+    width: 100%;
+}

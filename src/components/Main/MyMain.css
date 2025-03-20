@@ -41,3 +41,6 @@
     text-decoration-line: none !important;
     color: white;
 }
+.h3:hover{
+   font-size: 1.9rem;
+}

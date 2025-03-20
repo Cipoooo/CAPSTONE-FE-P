@@ -7,13 +7,13 @@ const Footer = () =>{
     <div  className="FooterBg">
        <div className="container container-lg d-flex justify-content-between">
         <div className="d-flex">
-        <a href="https://www.facebook.com/"><i style={{fontSize :"1.5rem"}} className="text-secondary bi bi-facebook"></i></a>
-        <a href="https://www.instagram.com/"><i style={{fontSize :"1.5rem"}} className="text-secondary ms-3 bi bi-instagram"></i></a>
-        <a href="https://x.com/"><i style={{fontSize :"1.5rem"}} className="text-secondary ms-3 bi bi-twitter"></i></a>
-        <a href="https://www.youtube.com/"><i style={{fontSize :"1.5rem"}} className="text-secondary ms-3 mb-2 bi bi-youtube"></i></a>
+        <a id="social" href="https://www.facebook.com/"><i style={{fontSize :"2.5rem"}} className="text-secondary bi bi-facebook"></i></a>
+        <a id="social" href="https://www.instagram.com/"><i style={{fontSize :"2.5rem"}} className="text-secondary ms-3 bi bi-instagram"></i></a>
+        <a id="social" href="https://x.com/"><i style={{fontSize :"2.5rem"}} className="text-secondary ms-3 bi bi-twitter"></i></a>
+        <a id="social" href="https://www.youtube.com/"><i style={{fontSize :"2.5rem"}} className="text-secondary ms-3 mb-2 bi bi-youtube"></i></a>
         </div>
         <div>
-        <img height={"30px"} width={"30px"} className="me-2 mt-1" src='https://imgs.search.brave.com/NGepRJmgPKnbvsANF10fZJRr4bfP9dY3rJ39DMuDxb0/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/Y29sbGluc2RpY3Rp/b25hcnkuY29tL2lt/YWdlcy90aHVtYi9o/YXJlXzI5Mjc0MDU3/Ml8yNTAuanBnP3Zl/cnNpb249Ni4wLjY4'/>
+        <img height={"50px"} width={"200px"} className="me-2 mt-1" src='../src/assets/epicode_logo.png'/>
         </div>        
        </div>
        <div className="container container-lg mt-2">
