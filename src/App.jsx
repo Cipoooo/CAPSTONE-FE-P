@@ -21,6 +21,7 @@ import PS4 from './components/PS4/PS4.jsx';
 import PS5 from './components/PS5/Ps5.jsx';
 import Nintendo from './components/Nintendo/Nintendo.jsx';
 import PC from './components/PC/PC.jsx';
+import NotFound from './components/NotFound/NotFound.jsx';
 
 
 const App = () => {
@@ -60,8 +61,9 @@ const App = () => {
         <Route path="/PS5" element={<PS5></PS5>}></Route>
         <Route path="/Nintendo" element={<Nintendo></Nintendo>}></Route>
         <Route path="/PC" element={<PC></PC>}></Route>
+
+        <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>
-      <MyFooter></MyFooter>
       </BrowserRouter>
     </Container>
   );

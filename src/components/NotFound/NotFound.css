@@ -1,0 +1,22 @@
+h1{
+    color: #ebe9fc;
+    font-size: 4rem;
+    font-weight:900;
+    margin: 0;
+    padding-right: 10px;
+
+}
+.Dizzy{
+    font-size: 100px;
+    color: #6132ad;
+    margin-bottom: 30px;
+}
+.Gohome{
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    background-color: #6132ad;
+    border: solid 2px white;
+    color: #ebe9fc;
+    text-decoration-line: none;
+}
