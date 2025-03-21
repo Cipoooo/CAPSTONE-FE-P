@@ -46,7 +46,7 @@ function MyNavbar() {
       <Container className='d-flex justify-content-evenly px-0'>
         <Navbar.Brand>
           <Link to={"/"}>
-            <img height={"50px"} width={"150px"} className='d-none d-md-block' src='../src/assets/epicode_logo.png'/>
+            <img height={"50px"} width={50} className='d-none d-md-block' src={"../src/assets/epicode_logo_symbol.png"}/>
             <img height={"50px"} width={"50px"} className='d-block d-md-none' src='../src/assets/epicode_logo_symbol.png'/>
           </Link>
         </Navbar.Brand>

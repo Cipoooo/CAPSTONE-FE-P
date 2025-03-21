@@ -53,43 +53,43 @@ const Searchpage = () =>{
         <>
     <Container fluid className="MainContainerSearch">
       <Container className="FilterContainer mb-3 d-flex">
-           <Dropdown as={ButtonGroup} className="ButtonGroup me-2">
+           <Dropdown  className="ButtonGroup me-2">
           <Dropdown.Toggle className="ButtonGroupButton rounded-pill">
             {filters.genre ? filters.genre : "Genere"}
           </Dropdown.Toggle>
-          <Dropdown.Menu>
-          <Dropdown.Item onClick={() => handleGenreChange("")}>Tutti i generi</Dropdown.Item>
-          <Dropdown.Item onClick={() => handleGenreChange("RPG")}>RPG</Dropdown.Item>
-          <Dropdown.Item onClick={() => handleGenreChange("Action")}>Azione</Dropdown.Item>
-          <Dropdown.Item onClick={() => handleGenreChange("Strategy")}>Strategia</Dropdown.Item>
+          <Dropdown.Menu className="DropdownMenu">
+          <Dropdown.Item className="DropdownItem" onClick={() => handleGenreChange("")}>Tutti i generi</Dropdown.Item>
+          <Dropdown.Item className="DropdownItem" onClick={() => handleGenreChange("RPG")}>RPG</Dropdown.Item>
+          <Dropdown.Item className="DropdownItem" onClick={() => handleGenreChange("Action")}>Azione</Dropdown.Item>
+          <Dropdown.Item className="DropdownItem" onClick={() => handleGenreChange("Strategy")}>Strategia</Dropdown.Item>
           </Dropdown.Menu>
         </Dropdown>
         <div className="VerticalSpacerS"></div>
-        <Dropdown as={ButtonGroup} className="ButtonGroup me-2">
+        <Dropdown  className="ButtonGroup me-2">
           <Dropdown.Toggle className="ButtonGroupButton rounded-pill">
             {filters.platform ? filters.platform : "Piattaforma"}
           </Dropdown.Toggle>
-          <Dropdown.Menu>
-          <Dropdown.Item onClick={() => handlePlatformChange("")}>Tutte le piattaforme</Dropdown.Item>
-          <Dropdown.Item onClick={() => handlePlatformChange("PS4")}>PS4</Dropdown.Item>
-          <Dropdown.Item onClick={() => handlePlatformChange("PS5")}>PS5</Dropdown.Item>
-          <Dropdown.Item onClick={() => handlePlatformChange("Xbox one")}>Xbox one</Dropdown.Item>
-          <Dropdown.Item onClick={() => handlePlatformChange("Xbox Series X/S")}>Xbox Series X/S</Dropdown.Item>
-          <Dropdown.Item onClick={() => handlePlatformChange("PC")}>PC</Dropdown.Item>
-          <Dropdown.Item onClick={() => handlePlatformChange("Nintendo")}>Nintendo Switch</Dropdown.Item>
+          <Dropdown.Menu className="DropdownMenu">
+          <Dropdown.Item className="DropdownItem" onClick={() => handlePlatformChange("")}>Tutte le piattaforme</Dropdown.Item>
+          <Dropdown.Item className="DropdownItem" onClick={() => handlePlatformChange("PS4")}>PS4</Dropdown.Item>
+          <Dropdown.Item className="DropdownItem" onClick={() => handlePlatformChange("PS5")}>PS5</Dropdown.Item>
+          <Dropdown.Item className="DropdownItem" onClick={() => handlePlatformChange("Xbox one")}>Xbox one</Dropdown.Item>
+          <Dropdown.Item className="DropdownItem" onClick={() => handlePlatformChange("Xbox Series X/S")}>Xbox Series X/S</Dropdown.Item>
+          <Dropdown.Item className="DropdownItem" onClick={() => handlePlatformChange("PC")}>PC</Dropdown.Item>
+          <Dropdown.Item className="DropdownItem" onClick={() => handlePlatformChange("Nintendo")}>Nintendo Switch</Dropdown.Item>
           </Dropdown.Menu>
         </Dropdown>
         <div className="VerticalSpacerS"></div>
-        <Dropdown as={ButtonGroup} className="ButtonGroup me-2">
+        <Dropdown  className="ButtonGroup me-2">
           <Dropdown.Toggle className="ButtonGroupButton rounded-pill">
             Prezzo: {filters.priceRange[1]}€
           </Dropdown.Toggle>
-          <Dropdown.Menu>
-          <Dropdown.Item onClick={() => handlePriceChange([0, 25])}>Fino a 25€</Dropdown.Item>
-          <Dropdown.Item onClick={() => handlePriceChange([0, 50])}>Fino a 50€</Dropdown.Item>
-          <Dropdown.Item onClick={() => handlePriceChange([0, 75])}>Fino a 75€</Dropdown.Item>
-          <Dropdown.Item onClick={() => handlePriceChange([0, 100])}>Fino a 100€</Dropdown.Item>
-          <Dropdown.Item onClick={() => handlePriceChange([0, 100])}>Fino a 200€</Dropdown.Item>
+          <Dropdown.Menu className="DropdownMenu">
+          <Dropdown.Item className="DropdownItem" onClick={() => handlePriceChange([0, 25])}>Fino a 25€</Dropdown.Item>
+          <Dropdown.Item className="DropdownItem" onClick={() => handlePriceChange([0, 50])}>Fino a 50€</Dropdown.Item>
+          <Dropdown.Item className="DropdownItem" onClick={() => handlePriceChange([0, 75])}>Fino a 75€</Dropdown.Item>
+          <Dropdown.Item className="DropdownItem" onClick={() => handlePriceChange([0, 100])}>Fino a 100€</Dropdown.Item>
+          <Dropdown.Item className="DropdownItem" onClick={() => handlePriceChange([0, 200])}>Fino a 200€</Dropdown.Item>
           </Dropdown.Menu>
         </Dropdown>
       </Container>

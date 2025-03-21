@@ -8,10 +8,12 @@
     align-items: center;
 }
 .ButtonGroup{
- width: 25%;
- height: 60px;
+    display: flex;
+    align-items: center;
+    height: 60px;
 }
 .ButtonGroupButton{
+    font-size: 1.2rem;
     margin-right: 10px;
     background-color: black;
     border: solid 2px white;
@@ -22,10 +24,19 @@
 .ButtonGroupButton:hover{
     background-color: #6132ad;
     border: #6132ad;
+    transform: scale(1.1);
 }
 .VerticalSpacerS{
     margin-right: 20px;
     border: solid 0.5px #ebe9fc;
     height: 70px;
     margin-top: 10px;
+}
+.DropdownMenu{
+    background-color: #6132ad;
+    margin-left: 0%;
+}
+.DropdownItem{
+    background-color: #6132ad;
+    color: #ebe9fc;
 }

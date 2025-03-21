@@ -13,7 +13,7 @@ const Footer = () =>{
         <a id="social" href="https://www.youtube.com/"><i style={{fontSize :"2.5rem"}} className="text-secondary ms-3 mb-2 bi bi-youtube"></i></a>
         </div>
         <div>
-        <img height={"50px"} width={"200px"} className="me-2 mt-1" src='../src/assets/epicode_logo.png'/>
+        <img height={"50px"} width={"50px"} className="me-2 mt-1" src='../src/assets/epicode_logo_symbol.png'/>
         </div>        
        </div>
        <div className="container container-lg mt-2">

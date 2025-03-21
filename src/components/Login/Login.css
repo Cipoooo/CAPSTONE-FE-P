@@ -32,11 +32,12 @@
      cursor: pointer;
 
  }
- form h1{
+ .title{
      display: flex;
+     margin-bottom: 10px;
      justify-content: start;
-     font-size: 5rem;
-     font-weight: 700;
+     font-size: 4rem;
+     font-weight: 500;
      color:  #f8f0ff;
  }
  form a{
