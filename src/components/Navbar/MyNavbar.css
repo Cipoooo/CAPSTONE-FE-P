@@ -8,7 +8,7 @@
 }
 .scrolled-NavBg{
     transition:  0.5s ease-out;
-    background-color: white;
+    background-color: #fffbfb;
 }
 .SearchBtn{
     background-color: #6132ad;
@@ -18,6 +18,18 @@
     height: 40px;
     padding: 0;
     margin: 0;
+}
+.DropdownP{
+    text-decoration-line: none;
+    text-decoration: none;
+    color: #eeeeee;
+    margin-right: 15px;
+    font-size: 1rem;
+}
+.DropdownP:hover{
+    text-decoration: underline;
+    color: #6132ad;
+    font-size: 1.1rem;
 }
 .RegisterLogin{
     display: flex;

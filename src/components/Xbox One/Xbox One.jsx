@@ -34,7 +34,7 @@ const XboxOne = () =>{
               <Container className="Sezione1">
               <Row className="gx-2 gy-2">
                 <h3 className="h3">In Tendenza <i class="bi bi-chevron-double-right text-white"></i></h3>
-                {videogiochi.filter(videogioco => videogioco.piattaforma.includes("Xbox")).map((videogioco,i)=>(
+                {videogiochi.filter(videogioco => videogioco.piattaforma.includes("Xbox One")).map((videogioco,i)=>(
                     <Col key={i} className="col-6 col-md-6 col-xl-3 col-xxl-2 px-0 d-inline">
                       <Link to={"/game"}><div className="GameBg">
                             <img className="ImgMain" height={"100px"} width={"100px"} src={videogioco.copertinaUrl} alt="CopertinaVideogioco" />

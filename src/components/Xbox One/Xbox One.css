@@ -1,6 +1,5 @@
-body{
+.MainContainerXbox{
     margin-top: 100px;
-
 }
 .Sezione1{
 }
@@ -16,13 +15,92 @@ body{
     color: ebe9fc;
     box-shadow: #ebe9fc;
 }
-.XboxImageContainer{
-    padding-right: 30%;
-    padding-left: 30%;
+.XboxImageContainer {
+    position: relative;
     width: 100%;
     min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(347deg, rgba(2,0,36,1) 0%, rgba(32,163,8,1) 100%);
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
 }
-.XboxImg{
-    height: 100%;
+.NintendoImageContainer {
+    position: relative;
     width: 100%;
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(232,232,232);
+    background: linear-gradient(347deg, rgba(232,232,232,1) 0%, rgba(219,1,1,1) 100%);
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+.PCImageContainer {
+    position: relative;
+    width: 100%;
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(347deg, rgba(2,0,36,1) 0%, rgba(59,8,163,1) 100%);
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+.PlaystationImageContainer {
+    position: relative;
+    width: 100%;
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(347deg, rgba(2,0,36,1) 0%, rgba(8,42,163,1) 100%);
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+.HeaderOverlay {
+    text-align: center;
+    color: white;
+}
+
+.steam-icon {
+    font-size: 15rem;
+    opacity: 0.9;
+    animation: fadeInUp 1s ease-in-out;
+}
+
+.header-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.header-subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    color: #ccc;
+}
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }

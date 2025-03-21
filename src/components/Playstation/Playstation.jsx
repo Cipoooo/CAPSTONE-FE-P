@@ -27,17 +27,21 @@ const Playstation = () =>{
     return(
         <>
          <Container sm className="MainContainerXbox">
-         <div className="XboxImageContainer">
-               <img src="../src/assets/plays.webp" className="XboxImg"alt="Xbox logo"/>
-            </div>
+         <div className="PlaystationImageContainer">
+         <div className="HeaderOverlay">
+         <i class="bi bi-playstation text-white steam-icon"></i>
+              <h2 className="header-title">Scopri i migliori giochi per Playstation</h2>
+              <p className="header-subtitle">Le ultime novità per PS4 e PS5</p>
+            </div> 
             <div className="d-flex justify-content-center mt-3">
-                <Link to={"/PS4"}><button className="buttonXbox rounded-pill p-2 px-3 me-3">PS4</button></Link>
+                <Link to={"/PS4"}><button className="buttonXbox rounded-pill p-2 mb-3 px-3 me-3">PS4</button></Link>
                 <Link to={"/PS5"}><button className="buttonXbox rounded-pill p-2 px-3">PS5</button></Link>
             </div>
-              <Container className="Sezione1">
+            </div>
+            <Container className="Sezione1">
               <Row className="gx-2 gy-2">
-                <h3 className="h3">In Tendenza <i class="bi bi-chevron-double-right text-white"></i></h3>
-                {videogiochi.filter(videogioco => videogioco.piattaforma.includes("Xbox")).map((videogioco,i)=>(
+                <h3 className="h3 mt-5">In Tendenza <i class="bi bi-chevron-double-right text-white"></i></h3>
+                {videogiochi.filter(videogioco => !videogioco.piattaforma.includes("Xbox One, PC, Nintendo Switch,Xbox Series X/S")).map((videogioco,i)=>(
                     <Col key={i} className="col-6 col-md-6 col-xl-3 col-xxl-2 px-0 d-inline">
                       <Link to={"/game"}><div className="GameBg">
                             <img className="ImgMain" height={"100px"} width={"100px"} src={videogioco.copertinaUrl} alt="CopertinaVideogioco" />

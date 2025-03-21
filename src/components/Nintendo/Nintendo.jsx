@@ -27,12 +27,16 @@ const Nintendo = () =>{
     return(
         <>
          <Container sm className="MainContainerXbox">
-         <div className="XboxImageContainer">
-               <img src="../src/assets/nintendo-logo-light.webp" className="XboxImg"alt="Xbox logo"/>
+         <div className="NintendoImageContainer">
+         <div className="HeaderOverlay">
+         <i class="bi bi-nintendo-switch text-white steam-icon" ></i>
+              <h2 className="header-title">Scopri i migliori giochi di Nintendo</h2>
+              <p className="header-subtitle text-black">Le ultime novità per Nintendo-Switch</p>
+            </div>
             </div>
             <Container className="Sezione1">
               <Row className="gx-2 gy-2">
-                <h3 className="h3">In Tendenza <i class="bi bi-chevron-double-right text-white"></i></h3>
+                <h3 className="h3 mt-5">In Tendenza <i class="bi bi-chevron-double-right text-white"></i></h3>
                 {videogiochi.filter(videogioco => videogioco.piattaforma.includes("Nintendo Switch")).map((videogioco,i)=>(
                     <Col key={i} className="col-6 col-md-6 col-xl-3 col-xxl-2 px-0 d-inline">
                       <Link to={"/game"}><div className="GameBg">

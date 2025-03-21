@@ -2,3 +2,30 @@
     padding-left: 0%;
     margin-top: 150px;
 }
+.FilterContainer{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.ButtonGroup{
+ width: 25%;
+ height: 60px;
+}
+.ButtonGroupButton{
+    margin-right: 10px;
+    background-color: black;
+    border: solid 2px white;
+    color: #ebe9fc;
+    padding-right : 20px;
+    padding-left: 20px;
+}
+.ButtonGroupButton:hover{
+    background-color: #6132ad;
+    border: #6132ad;
+}
+.VerticalSpacerS{
+    margin-right: 20px;
+    border: solid 0.5px #ebe9fc;
+    height: 70px;
+    margin-top: 10px;
+}

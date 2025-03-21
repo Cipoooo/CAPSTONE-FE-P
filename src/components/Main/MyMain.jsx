@@ -24,30 +24,41 @@ const  MyMain = () => {
 
    return(
     <>
-    <MyHeader></MyHeader>
+    {/*<MyHeader></MyHeader>*/}
+    <Container fluid className="HeroSection" id="HeaderStatic">
+  <div className="HeroOverlay"></div>
+  {videogiochi.length > 0 && (
+    <img className="HeroImage" src={videogiochi[1].copertinaUrl} alt="Copertina gioco Elden Ring" />
+  )}
+  <div className="HeroContent">
+    <h1 className="HeroTitle mt-3">Benvenuto su EpiGames </h1>
+    <p className="HeroSubtitle">il miglior marketplace per giochi in versione digitale</p>
+    <Link to="/search" className="HeroButton">Scopri Ora</Link>
+  </div>
+</Container>
     <Container fluid className="MainContainer">
       <Container className="Sezione1">
       <Row className="gx-2 gy-2">
-          <Link to={"/tendenza"}><h3 className="h3">In Tendenza <i class="bi bi-chevron-double-right text-white"></i></h3></Link>
-        {videogiochi.slice(96).map((videogioco,i)=>(
-            <Link to={`/game/${videogioco.id}`}><Col key={i} className="col-6 col-md-6 col-xl-3 col-xxl-2 px-0 d-inline">
+        <h3 className="h3">In Tendenza <i class="bi bi-chevron-double-right text-white"></i></h3>
+        {videogiochi.slice(94).map((videogioco,i)=>(
+           <Col key={i} className="col-6 col-md-6 col-xl-3 col-xxl-2 px-0 d-inline">
               <div className="GameBg">
-                    <img className="ImgMain" height={"100px"} width={"100px"} src={videogioco.copertinaUrl} alt="CopertinaVideogioco" />
+                    <Link to={`/game/${videogioco.id}`}><img className="ImgMain" height={"100px"} width={"100px"} src={videogioco.copertinaUrl} alt="CopertinaVideogioco" /></Link>
                     <div className="d-flex flex-column justify-content-centre"> 
                       <h6 className="text-white m-0 p-0">{videogioco.titolo}</h6>
                       <p className="text-danger m-0 p-0">{videogioco.prezzo}£</p>
                     </div>
                 </div>
-            </Col></Link>
+            </Col>
         ))}
         </Row>
         <br />
         <Row className="gx-2 gy-2">
-          <Link to={"/new"}><h3 className="h3">Usciti da poco <i class="bi bi-chevron-double-right text-white"></i></h3></Link>
-        {videogiochi.slice(96).map((videogioco,i)=>(
+        <h3 className="h3">Usciti da poco <i class="bi bi-chevron-double-right text-white"></i></h3>
+        {videogiochi.slice(0,6).map((videogioco,i)=>(
             <Col key={i} className="col-6 col-md-6 col-xl-3 col-xxl-2 px-0 d-inline">
                 <div className="GameBg">
-                    <img className="ImgMain" height={"100px"} width={"100px"} src={videogioco.copertinaUrl} alt="CopertinaVideogioco" />
+                <Link to={`/game/${videogioco.id}`}><img className="ImgMain" height={"100px"} width={"100px"} src={videogioco.copertinaUrl} alt="CopertinaVideogioco" /></Link>
                     <div className="d-flex flex-column justify-content-centre"> 
                       <h6 className="text-white m-0 p-0">{videogioco.titolo}</h6>
                       <p className="text-danger m-0 p-0">{videogioco.prezzo}£</p>
@@ -94,7 +105,7 @@ const  MyMain = () => {
         {videogiochi.slice(85).map((videogioco,i)=>(
             <Col key={i} className="col-6 col-md-4">
                 <div className="GameBg">
-                    <img className="ImgMain" height={"100px"} width={"100px"} src={videogioco.copertinaUrl} alt="CopertinaVideogioco" />
+                <Link to={`/game/${videogioco.id}`}><img className="ImgMain" height={"100px"} width={"100px"} src={videogioco.copertinaUrl} alt="CopertinaVideogioco" /></Link>
                     <div className="d-flex flex-column justify-content-centre"> 
                       <h6 className="text-white m-0 p-0">{videogioco.titolo}</h6>
                       <p className="text-danger m-0 p-0">{videogioco.prezzo}£</p>
@@ -142,20 +153,47 @@ const  MyMain = () => {
         </Container>
         <br />
         <Container className="Sezione3">
-          <Link to={"/sake"}><h3 className="h3">On Sale <i class="bi bi-chevron-double-right text-white"></i></h3></Link>
-          <Row className="gx-2 gy-2">
-        {videogiochi.slice(-12).map((videogioco,i)=>(
-            <Col key={i} className="col-6 col-md-4">
-                <div className="GameBg">
-                    <img className="ImgMain" height={"100px"} width={"100px"} src={videogioco.copertinaUrl} alt="CopertinaVideogioco" />
-                    <div className="d-flex flex-column justify-content-centre"> 
-                      <h6 className="text-white m-0 p-0">{videogioco.titolo}</h6>
-                      <p className="text-danger m-0 p-0">{videogioco.prezzo}£</p>
-                    </div>
+          <Row className="d-flex">
+            <Col className="col-6 col-md-4">
+            <Row className="d-flex flex-column justify-content-center align-items-center">
+              {videogiochi.slice(0,4).map((videogioco,i) => (
+                <Col style={{width:"80%",maxHeight:"65%"}}  className="d-flex align-items-center flex-column">
+                <Link to={`/game/${videogioco.id}`}><img id="Sezione3Colonna" width={"150px"} height={"150px"} src={videogioco.copertinaUrl} alt="Copertina Videogioco"></img></Link>
+                <div className="d-flex mt-3">
+                  <p id="DescrizioneGioco">{videogioco.titolo +"  -  "}</p>
+                  <p id="DescrizioneGioco">{videogioco.prezzo}$</p>
                 </div>
+                </Col>
+              ))}
+            </Row>
             </Col>
-        ))}
-        </Row>
+            <Col className="col-6 col-md-4">
+            <Row className="d-flex flex-column justify-content-center align-items-center">
+              {videogiochi.slice(5,9).map((videogioco,i) => (
+                <Col style={{width:"80%",maxHeight:"50%"}}  className="d-flex align-items-center flex-column">
+                <Link to={`/game/${videogioco.id}`}><img id="Sezione3Colonna" width={"150px"} height={"150px"}  src={videogioco.copertinaUrl} alt="Copertina Videogioco"></img></Link>
+                <div className="d-flex mt-3">
+                  <p id="DescrizioneGioco">{videogioco.titolo  +"  -  "}</p>
+                  <p id="DescrizioneGioco">{videogioco.prezzo }$</p>
+                </div>
+                </Col>
+              ))}
+            </Row>
+            </Col>
+            <Col className="d-none d-md-flex col-6 col-md-4">
+            <Row className="d-flex flex-column justify-content-center align-items-center">
+              {videogiochi.slice(10,14).map((videogioco,i) => (
+                <Col  style={{width:"80%",maxHeight:"65%"}}  className="d-flex align-items-center flex-column">
+                <Link to={`/game/${videogioco.id}`}><img id="Sezione3Colonna" width={"150px"} height={"150px"}  src={videogioco.copertinaUrl} alt="Copertina Videogioco"></img></Link>
+                <div className="d-flex mt-3">
+                  <p id="DescrizioneGioco">{videogioco.titolo  +"  -  "}</p>
+                  <p id="DescrizioneGioco">{videogioco.prezzo}$</p>
+                </div>
+                </Col>
+              ))}
+            </Row>
+            </Col>
+          </Row>
         </Container>
       </Container>
     </>

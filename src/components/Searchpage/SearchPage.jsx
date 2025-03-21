@@ -44,32 +44,29 @@ const Searchpage = () =>{
       const filteredVideogiochi = videogiochi.filter((game) => {
         const matchesQuery = game.titolo.toLowerCase().includes(query.toLowerCase());
         const matchesGenre = filters.genre ? game.genere === filters.genre : true;
-        const matchesPlatform = filters.platform ? game.piattaforma === filters.platform : true;
-        const matchesPrice =
-          game.prezzo >= filters.priceRange[0] && game.prezzo <= filters.priceRange[1];
-    
+        const matchesPlatform = filters.platform ? game.piattaforma.includes(filters.platform) : true;
+        const matchesPrice =game.prezzo >= filters.priceRange[0] && game.prezzo <= filters.priceRange[1];
+
         return matchesQuery && matchesGenre && matchesPlatform && matchesPrice;
       });
-    
-
-      console.log(filteredVideogiochi)
     return(
         <>
     <Container fluid className="MainContainerSearch">
-      <Container className="FilterContainer">
-           <Dropdown as={ButtonGroup} className="me-2">
-          <Dropdown.Toggle variant="primary">
+      <Container className="FilterContainer mb-3 d-flex">
+           <Dropdown as={ButtonGroup} className="ButtonGroup me-2">
+          <Dropdown.Toggle className="ButtonGroupButton rounded-pill">
             {filters.genre ? filters.genre : "Genere"}
           </Dropdown.Toggle>
           <Dropdown.Menu>
           <Dropdown.Item onClick={() => handleGenreChange("")}>Tutti i generi</Dropdown.Item>
           <Dropdown.Item onClick={() => handleGenreChange("RPG")}>RPG</Dropdown.Item>
-          <Dropdown.Item onClick={() => handleGenreChange("Azione")}>Azione</Dropdown.Item>
-          <Dropdown.Item onClick={() => handleGenreChange("Strategia")}>Strategia</Dropdown.Item>
+          <Dropdown.Item onClick={() => handleGenreChange("Action")}>Azione</Dropdown.Item>
+          <Dropdown.Item onClick={() => handleGenreChange("Strategy")}>Strategia</Dropdown.Item>
           </Dropdown.Menu>
         </Dropdown>
-        <Dropdown as={ButtonGroup} className="me-2">
-          <Dropdown.Toggle variant="success">
+        <div className="VerticalSpacerS"></div>
+        <Dropdown as={ButtonGroup} className="ButtonGroup me-2">
+          <Dropdown.Toggle className="ButtonGroupButton rounded-pill">
             {filters.platform ? filters.platform : "Piattaforma"}
           </Dropdown.Toggle>
           <Dropdown.Menu>
@@ -82,8 +79,9 @@ const Searchpage = () =>{
           <Dropdown.Item onClick={() => handlePlatformChange("Nintendo")}>Nintendo Switch</Dropdown.Item>
           </Dropdown.Menu>
         </Dropdown>
-        <Dropdown as={ButtonGroup} className="me-2">
-          <Dropdown.Toggle variant="warning">
+        <div className="VerticalSpacerS"></div>
+        <Dropdown as={ButtonGroup} className="ButtonGroup me-2">
+          <Dropdown.Toggle className="ButtonGroupButton rounded-pill">
             Prezzo: {filters.priceRange[1]}€
           </Dropdown.Toggle>
           <Dropdown.Menu>

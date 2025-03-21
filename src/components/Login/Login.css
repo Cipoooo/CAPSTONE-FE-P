@@ -24,6 +24,7 @@
     border: solid 2px rgb(197, 166, 30);
     background-color: transparent;
     backdrop-filter: blur(40px);
+    margin-bottom: 100px;
  }
  form{
      line-height: 2;
@@ -33,19 +34,18 @@
  }
  form h1{
      display: flex;
-     justify-content: center;
-     font-family:'Roboto' ;
+     justify-content: start;
      font-size: 5rem;
-     font-weight: 900;
+     font-weight: 700;
      color:  #f8f0ff;
  }
  form a{
      text-decoration: none;
      font-weight: 500;
-     font-size: 1.0rem;color: white;
+     font-size: 0.6rem;color: white;
  }
  form a:hover{
-     font-size: 1.2rem;
+     font-size: 0.7rem;
      color: #ffb300;
  }
  label{
@@ -86,7 +86,6 @@
  }
  .remember-forgot{
      display: flex;
-     justify-content: space-between;
      vertical-align: middle;
  }
  .loginBtn{
@@ -105,12 +104,14 @@
      background-color: transparent;
      border: solid 2px;
      border-radius: 40px;
-     box-shadow: 0 0 2em orange;
+     box-shadow: 0 2em 2em ebe9fc;
      padding: 0 20px;
  }
  .loginBtn>button:hover{
      background-color: #f8f0ff;
      color: black;
+     font-size: 1.1rem;
+     padding: 0 30px;
  } 
  .links{
      display: flex;

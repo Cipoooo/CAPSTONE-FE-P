@@ -27,12 +27,16 @@ const PC = () =>{
     return(
         <>
          <Container sm className="MainContainerXbox">
-         <div className="XboxImageContainer">
-               <img src="../src/assets/steam-logo-light.webp" className="XboxImg"alt="Xbox logo"/>
+         <div className="PCImageContainer">
+            <div className="HeaderOverlay">
+              <i className="bi bi-steam text-white steam-icon"></i>
+              <h2 className="header-title">Scopri i migliori giochi per PC</h2>
+              <p className="header-subtitle">Le ultime novità su Steam e altre piattaforme</p>
             </div>
+          </div>
             <Container className="Sezione1">
               <Row className="gx-2 gy-2">
-                <h3 className="h3">In Tendenza <i class="bi bi-chevron-double-right text-white"></i></h3>
+                <h3 className="h3 mt-5">In Tendenza <i class="bi bi-chevron-double-right text-white"></i></h3>
                 {videogiochi.filter(videogioco => videogioco.piattaforma.includes("PC")).map((videogioco,i)=>(
                     <Col key={i} className="col-6 col-md-6 col-xl-3 col-xxl-2 px-0 d-inline">
                       <Link to={"/game"}><div className="GameBg">
