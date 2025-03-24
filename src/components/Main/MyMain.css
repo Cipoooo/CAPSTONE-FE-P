@@ -102,9 +102,9 @@
     padding-left: 10%;
     padding-right: 10%;
 }
-.Sezione3{
-    padding-left: 10%;
-    padding-right: 10%;
+.btnCarica:hover{
+    text-decoration: underline #6132ad 2px;
+    transform: scale(1.1);
 }
 .h3{
     text-decoration-line: none !important;

@@ -8,7 +8,7 @@ import "../Navbar/MyNavbar.css";
 import { useDispatch, useSelector } from 'react-redux';
 import { setSearchQuery } from '../../redux/action/query';
 import { Link } from 'react-router-dom';
-import {BiSearch, BiListUl} from 'react-icons/bi';
+import {BiSearch} from 'react-icons/bi';
 
 function MyNavbar() {
   const [showSearch, setShowSearch] = useState(false);
@@ -25,6 +25,7 @@ function MyNavbar() {
     }
   };
   const [scrolled, setScrolled] = useState(false);
+  const [isLoggedIn, setIsLoggedIn] = useState(false)
 
   useEffect(() => {
     const handleScroll = () => {
@@ -66,23 +67,23 @@ function MyNavbar() {
           <Link to={"/PC"}><img className='SearchbarImages d-none d-lg-block' src='../src/assets/pc-display.svg'/></Link>
         </div> 
         <div className='Dropdown d-flex d-lg-none'>
-          <Link to={"/profilo"} style={{textDecorationLine:"none"}}><p className='DropdownP mb-0'>Profilo</p></Link>
-          <Link to={"/carrello"}style={{textDecorationLine:"none"}}><p className='DropdownP mb-0'>Carrello</p></Link>
-          <Link to={"/about"} style={{textDecorationLine:"none"}}><p className='DropdownP mb-0'>About</p></Link>
-          <Link to={"/wishlist"} style={{textDecorationLine:"none"}}><p className='DropdownP mb-0'>Wishlist</p></Link>
+          <Link to={"/profilo"} style={{textDecorationLine:"none"}}><p className={scrolled != true ?'DropdownP mb-0':"DropdownP mb-0 text-black"}>Profilo</p></Link>
+          <Link to={"/carrello"}style={{textDecorationLine:"none"}}><p className={scrolled != true ?'DropdownP mb-0':"DropdownP mb-0 text-black"}>Carrello</p></Link>
+          <Link to={"/about"} style={{textDecorationLine:"none"}}><p className={scrolled != true ?'DropdownP mb-0':"DropdownP mb-0 text-black"}>About</p></Link>
+          <Link to={"/wishlist"} style={{textDecorationLine:"none"}}><p className={scrolled != true ?'DropdownP mb-0':"DropdownP mb-0 text-black"}>Wishlist</p></Link>
         </div>
         <div className='NavRight d-none d-lg-flex'>
           <Nav>
             <Button className="SearchBtn" style={{ marginRight: "5px" }}>
-              <Link to={"/carrello"}>
+              <Link style={{textDecoration:"none"}} to={"/carrello"}>
                 <i className="bi bi-bag-fill text-white"></i>
               </Link>
             </Button>
           </Nav>
           <Nav>
             <div className="RegisterLogin">
-              <Link to={"/profilo"}><i className="bi bi-person-fill fs-4 mx-2 text-white"></i></Link>
-              <Link to={"/login"} className='RegisterLoginLink fs-5'>Login</Link>
+              <Link to={"/profilo"}><i className={isLoggedIn==true?"bi bi-person-fill fs-4 mx-2 text-white":"bi bi-person fs-4 mx-2 text-black"}></i></Link>
+              <Link to={"/login"} className={ isLoggedIn == false?'RegisterLoginLink fs-5':"d-none"}>Login</Link>
             </div>
           </Nav>
         </div>

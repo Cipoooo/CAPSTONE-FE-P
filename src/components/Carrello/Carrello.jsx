@@ -4,11 +4,13 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { Link } from "react-router-dom";
 import Card from 'react-bootstrap/Card';
+import { BiHeart, BiTrash } from "react-icons/bi";
 
 
 const Carrello = () =>{
 
     const [videogiochi, setVideogiochi] = useState([]);
+    const [isBagEmpty, setIsBagEmpty] = useState(false)
 
     // Funzione per caricare i videogiochi dalla tua API
     const loadVideogiochi = async () => {
@@ -26,46 +28,65 @@ const Carrello = () =>{
     
     return(
         <>
-        <Container lg className="ContainerCarrello">
-            <Row>
-            <Col className="d-flex flex-column col-6 text-center text-white my-5">
-            <h5>Il tuo Carrello è vuoto</h5>
-            <h6>Non ci sono giochi nel tuo carrello, per cercare dei giochi clicca sul link Scopri di piu</h6>
-            <a href="#" style={{textDecoration:"none", color:"white"}}>Scopri di piu</a>
-            </Col>
-            <Col className="d-flex flex-column col-6 text-white align-items-center my-5">
+        <Container className="ContainerCarrello">
+            <Row className="mb-5">
+                <Col className={isBagEmpty!=true?"ContainerCarrello1 col-12 col-md-8 col-lg-7":"ContainerCarrello1 bg-transparent col-12"}>
+                <h1 className="text-white fs-1 mb-5">Carrello</h1>
+                {isBagEmpty ==true ?
+                <div className="d-flex flex-column text-center">
+                  <p className="text-white fs-4 mt-5">Non hai oggetti nel carrello, è ora di riempirlo!!!</p>
+                  <br />
+                  <div className="d-flex justify-content-center">
+                   <Link to={"/search"}><button className="Aquisti">Inizia a fare acquisti</button></Link>
+                  </div>
+                <div style={{marginTop:"100px"}} className="d-flex flex-overflow">
+                    <Link to={"/Xbox"} style={{textDecoration:"none"}} id="LinkCarrello" className="me-3 text-white fs-6">Xbox</Link>
+                    <Link to={"/Playstation"} style={{textDecoration:"none"}} id="LinkCarrello" className="me-3 text-white fs-6">PlayStation</Link>
+                    <Link to={"/Nintendo"} style={{textDecoration:"none"}} id="LinkCarrello" className="me-3 text-white fs-6">Nintendo</Link>
+                    <Link to={"/PC"} style={{textDecoration:"none"}} id="LinkCarrello" className="me-3 text-white fs-6">Pc</Link>
+                    <Link to={"/"} style={{textDecoration:"none"}} id="LinkCarrello" className="me-3 text-white fs-6">Home</Link>
+                    <Link to={"/About"} style={{textDecoration:"none"}} id="LinkCarrello" className="me-3 text-white fs-6">About</Link>
+                    <Link to={"/Profilo"} style={{textDecoration:"none"}} id="LinkCarrello" className="me-3 text-white fs-6">Profile</Link>
+                </div>  
+                </div> : 
+                
                 <div>
-                    Il tuo importo è di : 00.00$
-                </div>
-                <div className="mt-2">
-                    <button className="OrdineBtn">Procedi all' ordine</button>
-                </div>
-            </Col>
-            </Row>
-        </Container>
-        <Container lg className="ContainerCarrello2">
-        <Row className="gx-3">
-            <Col className="d-flex flex-column col-12 text-white text-center my-5">
-            <h5 className="fw-3 fs-4">Aquista di nuovo :</h5>
-            <h6>Non ci sono giochi che hai gia comprato, per cercare dei giochi clicca sul link Scopri di piu</h6>
-            <Link to={"/search"}style={{textDecoration:"none", color:"white"}}>Scopri di piu</Link>
-            </Col>
-        </Row>
-        </Container>
-        <Container lg className="ContainerCarrello2">
-        <Row className="gx-3 gy-3">
-            <h5>Giochi che potrebbero piacerti:</h5>
-            {videogiochi.slice(-12).map((videogioco,i) => (
-                <Col key={i} className="col-12 col-md-6 col-lg-4 col-xl-3">
-                    <Card className="Cards bg-transparent">
-                        <Card.Img src={videogioco.copertinaUrl} width={"50%"} height={"100%"} />
-                        <Card.Body className="d-flex bg-transparent">
-                            <Card.Title className="text-white">{videogioco.titolo + "   -   "}+{videogioco.prezzo}</Card.Title>
-                        </Card.Body>
-                    </Card>      
+                {videogiochi.slice(0,5).map((videogioco,i) => (
+                    <div className="ListItem">
+                        <div className="d-flex justify-content-start align-items-center">
+                            <img className=" me-5" src={videogioco.copertinaUrl} width={120} height={120} alt="Copertina videogiooc" />
+                            <div className=" d-flex flex-column">
+                                <div className="d-flex">
+                                <p className="m-0 fs-5 text-white p-0">{videogioco.titolo +"   -    "}</p>
+                                <p id="prezzo" className="fs-5 m-0 p-0">{videogioco.prezzo}</p>
+                                </div>
+                                <div>
+                                    <button className="HeartTrashBtn"><BiHeart className="text-white fs-4 mt-3"></BiHeart></button>
+                                    <button className="HeartTrashBtn"><BiTrash className="text-white fs-4 mt-3"></BiTrash></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>   
+                ))}
+                </div>}
+
                 </Col>
-            ))}
-        </Row>
+                <Col style={{maxHeight:"500px"}} className={isBagEmpty !=true ? "ContainerCarrello2 d-flex flex-column col-12 col-md-4 col-lg-4" :"ContainerCarrello2 d-none"}>
+                <h1  className="text-white fs-2 fw-semibold mb-0">Riepilogo Ordine:</h1>
+                {isBagEmpty !==true ?
+                <div className="d-flex flex-column" style={{marginRight:"90px"}}>
+                  <p className="text-white">Oggetto(0)</p>
+                  <hr className="w-100 text-white border-solid mt-0"/>
+                  <div className="d-flex flex-column ">
+                    <p className="m-0 fs-5 text-white p-0"> Totale ordine:</p>
+                    <p className="m-0 fs-5 text-white p-0">Di cui tot di 22,2%</p>
+                    <p id="prezzo" className="fs-5 m-0 p-0">EUR 0,00</p>
+                  </div>
+                  <Link to={"/checkout"}><button className="toCheckout">Vai al checkout</button></Link>  
+                  <br />
+                </div> : ""}
+                </Col>
+            </Row>
         </Container>
         </>
     );

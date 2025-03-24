@@ -8,6 +8,8 @@ import MyHeader from "../Header/MyHeader";
 const  MyMain = () => {
 
     const [videogiochi, setVideogiochi] = useState([]);
+    const [caricaAltro, setCaricaAltro] = useState(false);
+
 
     const loadVideogiochi = async () => {
       try {
@@ -194,6 +196,25 @@ const  MyMain = () => {
             </Row>
             </Col>
           </Row>
+        </Container>
+        <div className="d-flex justify-content-center mt-3">
+          <button onClick={() =>{setCaricaAltro(true)}} className={caricaAltro == false ? "btnCarica btn bg-transparent border-none outline-0 text-white" : "d-none"}>Carica tutti i giochi</button>
+        </div>
+        <Container className={caricaAltro == true ? "d-block" :"d-none"} style={{width:"60%"}}>
+        <br />
+        <Row className="gx-2 gy-2">
+        {videogiochi.map((videogioco,i)=>(
+            <Col key={i} className="col-6 col-md-4">
+                <div className="GameBg">
+                <Link to={`/game/${videogioco.id}`}><img className="ImgMain" height={"100px"} width={"100px"} src={videogioco.copertinaUrl} alt="CopertinaVideogioco" /></Link>
+                    <div className="d-flex flex-column justify-content-centre"> 
+                      <h6 className="text-white m-0 p-0">{videogioco.titolo}</h6>
+                      <p className="text-danger m-0 p-0">{videogioco.prezzo}£</p>
+                    </div>
+                </div>
+            </Col>
+        ))}
+        </Row>
         </Container>
       </Container>
     </>

@@ -29,7 +29,7 @@
 .DropdownP:hover{
     text-decoration: underline;
     color: #6132ad;
-    font-size: 1.1rem;
+    transform: scale(1.1);
 }
 .RegisterLogin{
     display: flex;
@@ -45,7 +45,9 @@
     color: #eeeeee;
 }
 .SearchBtn:hover{
-    background-color: #695ba4;
+    transform: scale(1.2);
+    background-color: #6132ad;
+    border-color: #6132ad;
 }
 .SearchbarIcons{
     display: flex;
@@ -62,8 +64,8 @@
     margin-left: 20px;
 }
 .SearchbarImages:hover{
-    width: 35px;
-    height: 35px;
+    transform: scale(1.2);
+    color: #eeeeee;
 }
 .search-input-container {
     width: 100px;
