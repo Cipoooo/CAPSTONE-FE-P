@@ -1,5 +1,5 @@
 import "../Carrello/Carrello.css";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col,} from "react-bootstrap";
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { Link } from "react-router-dom";
@@ -30,7 +30,7 @@ const Carrello = () =>{
         <>
         <Container className="ContainerCarrello">
             <Row className="mb-5">
-                <Col className={isBagEmpty!=true?"ContainerCarrello1 col-12 col-md-8 col-lg-7":"ContainerCarrello1 bg-transparent col-12"}>
+                <Col className={isBagEmpty!=true?"ContainerCarrello1 col-12 col-lg-7": "ContainerCarrello1 bg-transparent col-12"}>
                 <h1 className="text-white fs-1 mb-5">Carrello</h1>
                 {isBagEmpty ==true ?
                 <div className="d-flex flex-column text-center">
@@ -51,7 +51,7 @@ const Carrello = () =>{
                 </div> : 
                 
                 <div>
-                {videogiochi.slice(0,5).map((videogioco,i) => (
+                {videogiochi.slice(0,2).map((videogioco,i) => (
                     <div className="ListItem">
                         <div className="d-flex justify-content-start align-items-center">
                             <img className=" me-5" src={videogioco.copertinaUrl} width={120} height={120} alt="Copertina videogiooc" />
@@ -71,11 +71,11 @@ const Carrello = () =>{
                 </div>}
 
                 </Col>
-                <Col style={{maxHeight:"500px"}} className={isBagEmpty !=true ? "ContainerCarrello2 d-flex flex-column col-12 col-md-4 col-lg-4" :"ContainerCarrello2 d-none"}>
-                <h1  className="text-white fs-2 fw-semibold mb-0">Riepilogo Ordine:</h1>
+                <Col style={{maxHeight:"500px",borderRadius:"30px"}} className={isBagEmpty !=true ? "ContainerCarrello2 d-flex flex-column col-12 col-lg-4 " :"ContainerCarrello2 d-none"}>
+                <h1  className="text-white fs-2 fw-semibold my-3 me-5">Riepilogo Ordine:</h1>
                 {isBagEmpty !==true ?
                 <div className="d-flex flex-column" style={{marginRight:"90px"}}>
-                  <p className="text-white">Oggetto(0)</p>
+                  <p className="text-white">Oggetto({"Carrello.length"})</p>
                   <hr className="w-100 text-white border-solid mt-0"/>
                   <div className="d-flex flex-column ">
                     <p className="m-0 fs-5 text-white p-0"> Totale ordine:</p>

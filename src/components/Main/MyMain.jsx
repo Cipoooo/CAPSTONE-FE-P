@@ -33,7 +33,7 @@ const  MyMain = () => {
     <img className="HeroImage" src={videogiochi[1].copertinaUrl} alt="Copertina gioco Elden Ring" />
   )}
   <div className="HeroContent">
-    <h1 className="HeroTitle mt-3">Benvenuto su EpiGames </h1>
+    <h1 className="HeroTitle mt-5">Benvenuto su EpiGames </h1>
     <p className="HeroSubtitle">il miglior marketplace per giochi in versione digitale</p>
     <Link to="/search" className="HeroButton">Scopri Ora</Link>
   </div>

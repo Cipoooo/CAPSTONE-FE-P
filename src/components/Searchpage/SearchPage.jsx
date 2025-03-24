@@ -95,7 +95,7 @@ const Searchpage = () =>{
       </Container>
       <Container className="Sezione1">
       <Row className="gx-2 gy-2">
-          <Link to={"/tendenza"}><h3 className="h3">In Tendenza <i class="bi bi-chevron-double-right text-white"></i></h3></Link>
+        <h3 className="h3">In Tendenza <i class="bi bi-chevron-double-right text-white"></i></h3>
         {filteredVideogiochi.slice(-0).map((videogioco,i)=>(
             <Col key={i} className="col-6 col-md-6 col-xl-3 col-xxl-2 px-0 d-inline">
               <Link to={"/game"}><div className="GameBg">
@@ -125,7 +125,7 @@ const Searchpage = () =>{
         </Row>
       </Container>
         <br /> 
-      <Container className="Sezione2" style={{width:"60%"}}>
+      <Container lg style={{width:"60%"}}>
         <h3 className="text-white fw-bold">Ti Consigliamo :</h3>
         <br />
         <Row className="gx-2 gy-2">
@@ -143,7 +143,7 @@ const Searchpage = () =>{
         </Row>
         </Container>
         <br />
-        <Container className="Sezione3">
+        <Container lg>
           <Link to={"/sake"}><h3 className="h3">On Sale <i class="bi bi-chevron-double-right text-white"></i></h3></Link>
           <Row className="gx-2 gy-2">
         {videogiochi.slice(-12).map((videogioco,i)=>(

@@ -37,8 +37,7 @@
     align-items: center;
     background-color: #6132ad;
     border-color: #6132ad;
-    border-radius: 0%;
-    min-width: 100px;
+    border-radius: 50%;
 }
 .RegisterLoginLink{
     text-decoration-line: none;

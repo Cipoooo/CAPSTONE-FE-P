@@ -82,8 +82,7 @@ function MyNavbar() {
           </Nav>
           <Nav>
             <div className="RegisterLogin">
-              <Link to={"/profilo"}><i className={isLoggedIn==true?"bi bi-person-fill fs-4 mx-2 text-white":"bi bi-person fs-4 mx-2 text-black"}></i></Link>
-              <Link to={"/login"} className={ isLoggedIn == false?'RegisterLoginLink fs-5':"d-none"}>Login</Link>
+              <Link to={isLoggedIn == true ? "/profilo" :"/login"}><i className={isLoggedIn==true?"bi bi-person-fill fs-4 mx-2 text-white":"bi bi-person fs-4 mx-2 text-black"}></i></Link>
             </div>
           </Nav>
         </div>
