@@ -8,7 +8,7 @@
     padding: 50px;
     align-items: center;
     background-color: #0000003f;
-    border: solid #dddbff 2px;
+    border: solid transparent 2px;
     border-radius: 30px;
     margin-bottom: 30px;
 }
@@ -17,7 +17,7 @@
     justify-content: space-evenly;
     align-items: center;
     background-color: #181818;
-    border: solid #dddbff 1px;
+    border: solid transparent 1px;
     border-radius: 10px;
     margin-bottom: 30px;
 }

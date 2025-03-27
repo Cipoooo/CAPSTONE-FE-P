@@ -1,5 +1,6 @@
 import "../Profilo/Profilo.css";
 import {Container, Row, Col} from "react-bootstrap";
+import { Link } from "react-router-dom";
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
@@ -27,6 +28,10 @@ const Profilo = () =>{
             <Row style={{width:"90%"}}>
                 <Col className="col-12 mt-3">
                 <h1 className="text-white mb-3">Welcome Back :</h1>
+                <div className="d-flex align-items-center ">
+                  <Link to={"/"} style={{textDecoration:"none"}}><p className="LinkP mb-0 text-white fs-5">Home</p></Link><span className="text-white mx-2 fs-5"> {">"} </span>
+                  <p className="LinkP mb-0 text-white fs-5"> Profilo</p>
+                </div>
                 <div className="text-white d-flex flex-column align-items-center">
                 <img src="../src/assets/avatar2.jpg" height={"120px"} width={"130px"} className="rounded-circle my-3" alt="avatar picture"/>
                 <p className="fw-5 fs-2">ercipo0099</p>

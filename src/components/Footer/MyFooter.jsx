@@ -22,7 +22,7 @@ const Footer = () =>{
             <a href="" className="FooterLinks">Gift Cards</a>
           </div>
           <div className="col-6 col-sm-6 col-md-4 col-lg-3">
-            <a href="" className="FooterLinks">Games</a>
+            <a href="" className="FooterLinks">About us</a>
           </div>
           <div className="col-6 col-sm-6 col-md-4 col-lg-3">
             <a href="" className="FooterLinks">Terms of use</a>
@@ -46,9 +46,9 @@ const Footer = () =>{
        </div>
        <div className="container-lg d-flex">
         <button className="FooterBtn" style={{fontSize: "0.8rem"}}>Service code</button>
-        <button className="FooterBtn" style={{fontSize: "0.8rem"}}><a href="#"><i class="bi bi-arrow-up-square fs-5 text-secondary"></i></a></button>
+        <button className="FooterBtn2" style={{fontSize: "0.8rem"}}><a href="#"><i class="bi bi-arrow-up-square fs-5 text-secondary"></i></a></button>
        </div>
-       <div className="container-lg d-flex pt-2 ">
+       <div className="FooterCopyright d-flex pt-2 ">
         <i style={{fontSize: "0.8rem"}} className="bi bi-c-circle text-black pb-0 pe-1"></i>
         <p style={{fontSize: "0.8rem", color: "rgba(3, 3, 3, 0.97)"}} >2025 EpiGames,inc.</p>
        </div>

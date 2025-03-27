@@ -25,7 +25,7 @@ function MyNavbar() {
     }
   };
   const [scrolled, setScrolled] = useState(false);
-  const [isLoggedIn, setIsLoggedIn] = useState(false)
+  const [isLoggedIn, setIsLoggedIn] = useState(true)
 
   useEffect(() => {
     const handleScroll = () => {

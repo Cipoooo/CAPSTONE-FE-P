@@ -14,23 +14,47 @@
     text-decoration-line: none;
 }
 .FooterLinks:hover{
-  font-size: 1.1rem;
   text-decoration: underline solid black;
+  color: #6132ad;
 }
 .FooterBtn{
     color: grey;
+    background-color: #fffbfb;
     border-color: grey;
     margin-top: 10px;
     margin-right: 15px;
-    /*margin-left: 36.5px;*/
 }
 .FooterBtn2{
+    background-color: #fffbfb;
     color: grey;
     border-color: grey;
     margin-top: 10px;
 }
 .FooterCopyright{
-    padding-top: 10px;
-    display: flex;
-    margin-left: 40.5px;
+    margin-left: 10px;
 }
+@media screen and (min-width:600px) and (max-width:768px){
+    .FooterBtn,.FooterCopyright{
+        margin-left: 20px;
+    }
+} 
+@media screen and (min-width:769px) and (max-width:880px){
+    .FooterBtn,.FooterCopyright{
+        margin-left: 40px;
+    }
+} 
+@media screen and (min-width:1024px) and (max-width:1200px){
+    .FooterCopyright{
+        margin-left: 30px;
+    }
+}
+@media screen and (min-width:1280px) and (max-width:1600px){
+    .FooterCopyright{
+        margin-left: 75px;
+    }
+}  
+@media screen and (min-width:1600px) and (max-width:4000px){
+    .FooterCopyright{
+        margin-left: 16%;
+    }
+} 
