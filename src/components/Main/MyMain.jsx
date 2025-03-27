@@ -79,34 +79,55 @@ const MyMain = () => {
             ))}
           </Row>
            <Container fluid className="Sezione1 d-md-none my-3 ">
-                      <div className="scroll-container">
-                        <Row className="gx-3 gy-2 flex-nowrap">
-                          {videogiochi.slice(0, 10).map((videogioco, i) => (
-                            <Col key={i} xs={8} sm={6} md={4} lg={3} className="game-col">
-                              <Link to={`/game/${videogioco.id}`} style={{ textDecoration: "none" }}>
-                                <Card className="game-card">
-                                  <div className="GameImageContainer">
-                                    <Image src={videogioco.copertinaUrl} alt={videogioco.titolo} className="game-image2" fluid />
-                                  </div>
-                                  <Card.Body className="game-info d-flex justify-content-between align-items-center">
-                                    <Card.Title className="game-title2">{videogioco.titolo}</Card.Title>
-                                    <Card.Text className="game-price2">{videogioco.prezzo}€</Card.Text>
-                                  </Card.Body>
-                                </Card>
-                              </Link>
-                            </Col>
-                          ))}
-                        </Row>
-                      </div>
-                    </Container>
+            <div className="scroll-container">
+              <Row className="gx-3 gy-2 flex-nowrap">
+                {videogiochi.slice(0, 10).map((videogioco, i) => (
+                  <Col key={i} xs={8} sm={6} md={4} lg={3} className="game-col">
+                    <Link to={`/game/${videogioco.id}`} style={{ textDecoration: "none" }}>
+                      <Card className="game-card">
+                        <div className="GameImageContainer">
+                          <Image src={videogioco.copertinaUrl} alt={videogioco.titolo} className="game-image2" fluid />
+                        </div>
+                        <Card.Body className="game-info d-flex justify-content-between align-items-center">
+                          <Card.Title className="game-title2">{videogioco.titolo}</Card.Title>
+                          <Card.Text className="game-price2">{videogioco.prezzo}€</Card.Text>
+                        </Card.Body>
+                      </Card>
+                    </Link>
+                  </Col>
+                ))}
+              </Row>
+            </div>
+          </Container>
           <br />
           <Row className="gx-4 gy-2">
             <h3 className="h3">
               Usciti da poco{" "}
               <i class="bi bi-chevron-double-right text-white"></i>
             </h3>
+            <Container fluid className="Sezione1 d-md-none my-3 ">
+            <div className="scroll-container">
+              <Row className="gx-3 gy-2 flex-nowrap">
+                {videogiochi.slice(10, 20).map((videogioco, i) => (
+                  <Col key={i} xs={8} sm={6} md={4} lg={3} className="game-col">
+                    <Link to={`/game/${videogioco.id}`} style={{ textDecoration: "none" }}>
+                      <Card className="game-card">
+                        <div className="GameImageContainer">
+                          <Image src={videogioco.copertinaUrl} alt={videogioco.titolo} className="game-image2" fluid />
+                        </div>
+                        <Card.Body className="game-info d-flex justify-content-between align-items-center">
+                          <Card.Title className="game-title2">{videogioco.titolo}</Card.Title>
+                          <Card.Text className="game-price2">{videogioco.prezzo}€</Card.Text>
+                        </Card.Body>
+                      </Card>
+                    </Link>
+                  </Col>
+                ))}
+              </Row>
+            </div>
+          </Container>
             {videogiochi.slice(0, 6).map((videogioco, i) => (
-              <Col key={i} xs={12} sm={6} md={4} lg={4} className="mb-4">
+              <Col key={i} xs={12} sm={6} md={4} lg={4} className="d-none d-md-block mb-4">
                 <Link
                   style={{ textDecoration: "none" }}
                   to={`/game/${videogioco.id}`}
@@ -368,9 +389,10 @@ const MyMain = () => {
         </div>
         <Container
           className={caricaAltro == true ? "d-block" : "d-none"}
-          style={{ width: "60%" }}
+          style={{ width: "100%" }}
         >
           <br />
+          <h3 className="text-white fs-1 mb-3 fw-semibold">Tutti i giochi :</h3>
           <Row className="gx-4 gy-2">
             {videogiochi.map((videogioco, i) => (
               <Col key={i} xs={12} sm={6} md={4} lg={4} className="mb-4">

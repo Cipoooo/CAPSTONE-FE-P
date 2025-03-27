@@ -2,6 +2,7 @@
     padding-left: 0%;
     padding-right: 0;
     margin-top: 100px;
+    width: 100%;
 }
 .Sezione1{
     width: 100%;
@@ -9,6 +10,7 @@
     justify-content: center;
 }
 .FilterContainer{
+    padding-top: 10px;
     width: 100%;
     margin: 0;
     justify-content: center;
@@ -67,6 +69,9 @@
     flex: 0 0 auto;
     scroll-snap-align: start;
     margin-right: 10px;
+  }
+  @media screen and (max-width:500px) {
+    .FilterContainer{}
   }
   @media screen and (min-width:500px) and (max-width:768px) {
     .FilterContainer{

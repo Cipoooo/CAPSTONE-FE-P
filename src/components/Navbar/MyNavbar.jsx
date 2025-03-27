@@ -43,7 +43,7 @@ function MyNavbar() {
   }, []);
 
   return (
-    <Navbar fixed='top' className={`w-100 text-white px-0 ${scrolled ? "scrolled-NavBg" : "NavBg"}`}>
+    <Navbar fixed='top' fluid className={`w-100 text-white px-0 ${scrolled ? "scrolled-NavBg" : "NavBg"}`}>
       <Container className='d-flex justify-content-evenly px-0'>
         <Navbar.Brand>
           <Link to={"/"}>

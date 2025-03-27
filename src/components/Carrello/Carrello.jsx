@@ -31,7 +31,11 @@ const Carrello = () =>{
         <Container className="ContainerCarrello">
             <Row className="mb-5">
                 <Col className={isBagEmpty!=true?"ContainerCarrello1 col-12 col-lg-7": "ContainerCarrello1 bg-transparent col-12"}>
-                <h1 className="text-white fs-1 mb-5">Carrello</h1>
+                <h1 className="text-white fs-1">Carrello</h1>
+                <div className="d-flex">
+                  <Link to={"/"} style={{textDecoration:"none"}}><p className="LinkP mb-0 text-white fs-5">Home</p></Link><span className="text-white mx-2 fs-5"> {">"} </span>
+                <p className="LinkP mb-0 text-white fs-5 mb-5">Carrello</p>
+                </div>
                 {isBagEmpty ==true ?
                 <div className="d-flex flex-column text-center">
                   <p className="text-white fs-4 mt-5">Non hai oggetti nel carrello, è ora di riempirlo!!!</p>

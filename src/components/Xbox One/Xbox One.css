@@ -94,6 +94,48 @@
     margin-bottom: 15px;
     color: #ccc;
 }
+.ContainerGiocoSingoloX{
+  margin-top: 100px;
+  padding: 0;
+  position: relative;
+  width: 100%;
+  height: 600px; 
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.GiocoSingoloImageX{
+position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../src/assets/halo.webp");
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  filter:brightness(0.9);
+  background-repeat: no-repeat;
+  }
+  .ContainerGiocoSingoloInfo{
+position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+  color: black;
+  text-align: left;
+  }
+  .GiocoTitolo {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  
+  .GiocoPrezzo {
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #ffb300;
+  }
 @keyframes fadeInUp {
     from {
         opacity: 0;
