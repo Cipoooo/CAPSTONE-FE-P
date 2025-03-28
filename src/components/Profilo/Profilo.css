@@ -19,13 +19,19 @@
     margin-top: 0;
 }
 .ProfiloLink{
-    margin: 0;
-    padding: 0;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin-left: 10px;
+    background-color: transparent;
     color: #f8f0ff;
+    border-radius: 15px;
+    border-color: #f8f0ff;
     font-size: 1.2rem;
 }
 .ProfiloLink:hover{
-    color: #ffb300;
-    text-decoration: underline;
+    background-color: #6132ad ;
+    transform: scale(1.1);
+    color: #f8f0ff;
 }

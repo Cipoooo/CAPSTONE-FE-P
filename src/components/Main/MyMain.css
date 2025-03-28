@@ -220,6 +220,20 @@ position: absolute;
     .ContainerGiocoSingolo{
         height: 300px;
     }
+    .HeroTitle {
+        font-size: 2rem;
+        font-weight: bold;
+        font-family: 'Inter';
+        color: #ffff;
+        text-transform: uppercase;
+        animation: fadeInDown 1s ease-in-out;
+    }
+    
+    .HeroSubtitle {
+        font-size: 1.0rem;
+        margin-bottom: 20px;
+        animation: fadeInUp 1s ease-in-out;
+    }
 }
 
 @keyframes fadeInDown {

@@ -1,0 +1,1685 @@
+[
+    {
+        "id": 1,
+        "titolo": "The Witcher 3: Wild Hunt",
+        "piattaforma": "PC, PS4, Xbox One, Nintendo Switch",
+        "prezzo": 39.99,
+        "genere": "Action RPG",
+        "dataUscita": "2015-05-19",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300000-the-witcher-3-wild-hunt-playstation-4-front-cover.jpg"
+    },
+    {
+        "id": 2,
+        "titolo": "Elden Ring",
+        "piattaforma": "PC, PS4, PS5, Xbox One, Xbox Series X/S",
+        "prezzo": 59.99,
+        "genere": "Action RPG",
+        "dataUscita": "2022-02-25",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/775869-elden-ring-xbox-series-x-front-cover.jpg"
+    },
+    {
+        "id": 3,
+        "titolo": "Halo Infinite",
+        "piattaforma": "PC, Xbox One, Xbox Series X/S",
+        "prezzo": 69.99,
+        "genere": "First-Person Shooter",
+        "dataUscita": "2021-12-08",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/733732-halo-infinite-xbox-series-x-front-cover.jpg"
+    },
+    {
+        "id": 4,
+        "titolo": "Super Mario Odyssey",
+        "piattaforma": "Nintendo Switch",
+        "prezzo": 59.99,
+        "genere": "Platform",
+        "dataUscita": "2017-10-27",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/435360-super-mario-odyssey-nintendo-switch-front-cover.jpg"
+    },
+    {
+        "id": 5,
+        "titolo": "Horizon Forbidden West",
+        "piattaforma": "PS4, PS5",
+        "prezzo": 69.99,
+        "genere": "Action RPG",
+        "dataUscita": "2022-02-18",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/773372-horizon-forbidden-west-playstation-5-front-cover.jpg"
+    },
+    {
+        "id": 6,
+        "titolo": "Final Fantasy VII Remake",
+        "piattaforma": "PS4, PS5, PC",
+        "prezzo": 59.99,
+        "genere": "Action RPG",
+        "dataUscita": "2020-04-10",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/655528-final-fantasy-vii-remake-playstation-4-front-cover.jpg"
+    },
+    {
+        "id": 7,
+        "titolo": "Doom Eternal",
+        "piattaforma": "PC, PS4, PS5, Xbox One, Xbox Series X/S, Nintendo Switch",
+        "prezzo": 59.99,
+        "genere": "First-Person Shooter",
+        "dataUscita": "2020-03-20",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/700711-doom-eternal-playstation-4-front-cover.jpg"
+    },
+    {
+        "id": 8,
+        "titolo": "Ghost of Tsushima",
+        "piattaforma": "PS4, PS5",
+        "prezzo": 59.99,
+        "genere": "Action Adventure",
+        "dataUscita": "2020-07-17",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/698308-ghost-of-tsushima-playstation-4-front-cover.jpg"
+    },
+    {
+        "id": 9,
+        "titolo": "Spider-Man: Miles Morales",
+        "piattaforma": "PS5",
+        "prezzo": 49.99,
+        "genere": "Action Adventure",
+        "dataUscita": "2020-11-12",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/800000-spider-man-miles-morales-playstation-5-front-cover.jpg"
+    },
+    {
+        "id": 10,
+        "titolo": "Assassin's Creed Valhalla",
+        "piattaforma": "PC, PS4, PS5, Xbox One, Xbox Series X/S",
+        "prezzo": 59.99,
+        "genere": "Action RPG",
+        "dataUscita": "2020-11-10",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/700000-assassin-s-creed-valhalla-playstation-4-front-cover.jpg"
+    },
+    {
+        "id": 11,
+        "titolo": "Game 11",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 49.99,
+        "genere": "Adventure",
+        "dataUscita": "2021-12-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300011-game-11-front-cover.jpg"
+    },
+    {
+        "id": 12,
+        "titolo": "Game 12",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 29.99,
+        "genere": "RPG",
+        "dataUscita": "2021-01-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300012-game-12-front-cover.jpg"
+    },
+    {
+        "id": 13,
+        "titolo": "Game 13",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 39.99,
+        "genere": "FPS",
+        "dataUscita": "2021-02-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300013-game-13-front-cover.jpg"
+    },
+    {
+        "id": 14,
+        "titolo": "Game 14",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 49.99,
+        "genere": "Strategy",
+        "dataUscita": "2021-03-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300014-game-14-front-cover.jpg"
+    },
+    {
+        "id": 15,
+        "titolo": "Game 15",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 29.99,
+        "genere": "Action",
+        "dataUscita": "2021-04-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300015-game-15-front-cover.jpg"
+    },
+    {
+        "id": 16,
+        "titolo": "Game 16",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 39.99,
+        "genere": "Adventure",
+        "dataUscita": "2021-05-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300016-game-16-front-cover.jpg"
+    },
+    {
+        "id": 17,
+        "titolo": "Game 17",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 49.99,
+        "genere": "RPG",
+        "dataUscita": "2021-06-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300017-game-17-front-cover.jpg"
+    },
+    {
+        "id": 18,
+        "titolo": "Game 18",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 29.99,
+        "genere": "FPS",
+        "dataUscita": "2021-07-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300018-game-18-front-cover.jpg"
+    },
+    {
+        "id": 19,
+        "titolo": "Game 19",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 39.99,
+        "genere": "Strategy",
+        "dataUscita": "2021-08-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300019-game-19-front-cover.jpg"
+    },
+    {
+        "id": 20,
+        "titolo": "Game 20",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 49.99,
+        "genere": "Action",
+        "dataUscita": "2021-09-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300020-game-20-front-cover.jpg"
+    },
+    {
+        "id": 21,
+        "titolo": "Game 21",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 29.99,
+        "genere": "Adventure",
+        "dataUscita": "2021-10-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300021-game-21-front-cover.jpg"
+    },
+    {
+        "id": 22,
+        "titolo": "Game 22",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 39.99,
+        "genere": "RPG",
+        "dataUscita": "2021-11-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300022-game-22-front-cover.jpg"
+    },
+    {
+        "id": 23,
+        "titolo": "Game 23",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 49.99,
+        "genere": "FPS",
+        "dataUscita": "2021-12-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300023-game-23-front-cover.jpg"
+    },
+    {
+        "id": 24,
+        "titolo": "Game 24",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 29.99,
+        "genere": "Strategy",
+        "dataUscita": "2021-01-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300024-game-24-front-cover.jpg"
+    },
+    {
+        "id": 25,
+        "titolo": "Game 25",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 39.99,
+        "genere": "Action",
+        "dataUscita": "2021-02-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300025-game-25-front-cover.jpg"
+    },
+    {
+        "id": 26,
+        "titolo": "Game 26",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 49.99,
+        "genere": "Adventure",
+        "dataUscita": "2021-03-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300026-game-26-front-cover.jpg"
+    },
+    {
+        "id": 27,
+        "titolo": "Game 27",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 29.99,
+        "genere": "RPG",
+        "dataUscita": "2021-04-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300027-game-27-front-cover.jpg"
+    },
+    {
+        "id": 28,
+        "titolo": "Game 28",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 39.99,
+        "genere": "FPS",
+        "dataUscita": "2021-05-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300028-game-28-front-cover.jpg"
+    },
+    {
+        "id": 29,
+        "titolo": "Game 29",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 49.99,
+        "genere": "Strategy",
+        "dataUscita": "2021-06-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300029-game-29-front-cover.jpg"
+    },
+    {
+        "id": 30,
+        "titolo": "Game 30",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 29.99,
+        "genere": "Action",
+        "dataUscita": "2021-07-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300030-game-30-front-cover.jpg"
+    },
+    {
+        "id": 31,
+        "titolo": "Game 31",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 39.99,
+        "genere": "Adventure",
+        "dataUscita": "2021-08-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300031-game-31-front-cover.jpg"
+    },
+    {
+        "id": 32,
+        "titolo": "Game 32",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 49.99,
+        "genere": "RPG",
+        "dataUscita": "2021-09-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300032-game-32-front-cover.jpg"
+    },
+    {
+        "id": 33,
+        "titolo": "Game 33",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 29.99,
+        "genere": "FPS",
+        "dataUscita": "2021-10-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300033-game-33-front-cover.jpg"
+    },
+    {
+        "id": 34,
+        "titolo": "Game 34",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 39.99,
+        "genere": "Strategy",
+        "dataUscita": "2021-11-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300034-game-34-front-cover.jpg"
+    },
+    {
+        "id": 35,
+        "titolo": "Game 35",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 49.99,
+        "genere": "Action",
+        "dataUscita": "2021-12-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300035-game-35-front-cover.jpg"
+    },
+    {
+        "id": 36,
+        "titolo": "Game 36",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 29.99,
+        "genere": "Adventure",
+        "dataUscita": "2021-01-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300036-game-36-front-cover.jpg"
+    },
+    {
+        "id": 37,
+        "titolo": "Game 37",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 39.99,
+        "genere": "RPG",
+        "dataUscita": "2021-02-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300037-game-37-front-cover.jpg"
+    },
+    {
+        "id": 38,
+        "titolo": "Game 38",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 49.99,
+        "genere": "FPS",
+        "dataUscita": "2021-03-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300038-game-38-front-cover.jpg"
+    },
+    {
+        "id": 39,
+        "titolo": "Game 39",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 29.99,
+        "genere": "Strategy",
+        "dataUscita": "2021-04-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300039-game-39-front-cover.jpg"
+    },
+    {
+        "id": 40,
+        "titolo": "Game 40",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 39.99,
+        "genere": "Action",
+        "dataUscita": "2021-05-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300040-game-40-front-cover.jpg"
+    },
+    {
+        "id": 41,
+        "titolo": "Game 41",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 49.99,
+        "genere": "Adventure",
+        "dataUscita": "2021-06-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300041-game-41-front-cover.jpg"
+    },
+    {
+        "id": 42,
+        "titolo": "Game 42",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 29.99,
+        "genere": "RPG",
+        "dataUscita": "2021-07-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300042-game-42-front-cover.jpg"
+    },
+    {
+        "id": 43,
+        "titolo": "Game 43",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 39.99,
+        "genere": "FPS",
+        "dataUscita": "2021-08-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300043-game-43-front-cover.jpg"
+    },
+    {
+        "id": 44,
+        "titolo": "Game 44",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 49.99,
+        "genere": "Strategy",
+        "dataUscita": "2021-09-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300044-game-44-front-cover.jpg"
+    },
+    {
+        "id": 45,
+        "titolo": "Game 45",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 29.99,
+        "genere": "Action",
+        "dataUscita": "2021-10-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300045-game-45-front-cover.jpg"
+    },
+    {
+        "id": 46,
+        "titolo": "Game 46",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 39.99,
+        "genere": "Adventure",
+        "dataUscita": "2021-11-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300046-game-46-front-cover.jpg"
+    },
+    {
+        "id": 47,
+        "titolo": "Game 47",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 49.99,
+        "genere": "RPG",
+        "dataUscita": "2021-12-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300047-game-47-front-cover.jpg"
+    },
+    {
+        "id": 48,
+        "titolo": "Game 48",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 29.99,
+        "genere": "FPS",
+        "dataUscita": "2021-01-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300048-game-48-front-cover.jpg"
+    },
+    {
+        "id": 49,
+        "titolo": "Game 49",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 39.99,
+        "genere": "Strategy",
+        "dataUscita": "2021-02-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300049-game-49-front-cover.jpg"
+    },
+    {
+        "id": 50,
+        "titolo": "Game 50",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 49.99,
+        "genere": "Action",
+        "dataUscita": "2021-03-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300050-game-50-front-cover.jpg"
+    },
+    {
+        "id": 51,
+        "titolo": "Game 51",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 29.99,
+        "genere": "Adventure",
+        "dataUscita": "2021-04-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300051-game-51-front-cover.jpg"
+    },
+    {
+        "id": 52,
+        "titolo": "Game 52",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 39.99,
+        "genere": "RPG",
+        "dataUscita": "2021-05-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300052-game-52-front-cover.jpg"
+    },
+    {
+        "id": 53,
+        "titolo": "Game 53",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 49.99,
+        "genere": "FPS",
+        "dataUscita": "2021-06-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300053-game-53-front-cover.jpg"
+    },
+    {
+        "id": 54,
+        "titolo": "Game 54",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 29.99,
+        "genere": "Strategy",
+        "dataUscita": "2021-07-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300054-game-54-front-cover.jpg"
+    },
+    {
+        "id": 55,
+        "titolo": "Game 55",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 39.99,
+        "genere": "Action",
+        "dataUscita": "2021-08-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300055-game-55-front-cover.jpg"
+    },
+    {
+        "id": 56,
+        "titolo": "Game 56",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 49.99,
+        "genere": "Adventure",
+        "dataUscita": "2021-09-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300056-game-56-front-cover.jpg"
+    },
+    {
+        "id": 57,
+        "titolo": "Game 57",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 29.99,
+        "genere": "RPG",
+        "dataUscita": "2021-10-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300057-game-57-front-cover.jpg"
+    },
+    {
+        "id": 58,
+        "titolo": "Game 58",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 39.99,
+        "genere": "FPS",
+        "dataUscita": "2021-11-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300058-game-58-front-cover.jpg"
+    },
+    {
+        "id": 59,
+        "titolo": "Game 59",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 49.99,
+        "genere": "Strategy",
+        "dataUscita": "2021-12-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300059-game-59-front-cover.jpg"
+    },
+    {
+        "id": 60,
+        "titolo": "Game 60",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 29.99,
+        "genere": "Action",
+        "dataUscita": "2021-01-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300060-game-60-front-cover.jpg"
+    },
+    {
+        "id": 61,
+        "titolo": "Game 61",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 39.99,
+        "genere": "Adventure",
+        "dataUscita": "2021-02-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300061-game-61-front-cover.jpg"
+    },
+    {
+        "id": 62,
+        "titolo": "Game 62",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 49.99,
+        "genere": "RPG",
+        "dataUscita": "2021-03-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300062-game-62-front-cover.jpg"
+    },
+    {
+        "id": 63,
+        "titolo": "Game 63",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 29.99,
+        "genere": "FPS",
+        "dataUscita": "2021-04-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300063-game-63-front-cover.jpg"
+    },
+    {
+        "id": 64,
+        "titolo": "Game 64",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 39.99,
+        "genere": "Strategy",
+        "dataUscita": "2021-05-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300064-game-64-front-cover.jpg"
+    },
+    {
+        "id": 65,
+        "titolo": "Game 65",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 49.99,
+        "genere": "Action",
+        "dataUscita": "2021-06-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300065-game-65-front-cover.jpg"
+    },
+    {
+        "id": 66,
+        "titolo": "Game 66",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 29.99,
+        "genere": "Adventure",
+        "dataUscita": "2021-07-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300066-game-66-front-cover.jpg"
+    },
+    {
+        "id": 67,
+        "titolo": "Game 67",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 39.99,
+        "genere": "RPG",
+        "dataUscita": "2021-08-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300067-game-67-front-cover.jpg"
+    },
+    {
+        "id": 68,
+        "titolo": "Game 68",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 49.99,
+        "genere": "FPS",
+        "dataUscita": "2021-09-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300068-game-68-front-cover.jpg"
+    },
+    {
+        "id": 69,
+        "titolo": "Game 69",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 29.99,
+        "genere": "Strategy",
+        "dataUscita": "2021-10-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300069-game-69-front-cover.jpg"
+    },
+    {
+        "id": 70,
+        "titolo": "Game 70",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 39.99,
+        "genere": "Action",
+        "dataUscita": "2021-11-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300070-game-70-front-cover.jpg"
+    },
+    {
+        "id": 71,
+        "titolo": "Game 71",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 49.99,
+        "genere": "Adventure",
+        "dataUscita": "2021-12-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300071-game-71-front-cover.jpg"
+    },
+    {
+        "id": 72,
+        "titolo": "Game 72",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 29.99,
+        "genere": "RPG",
+        "dataUscita": "2021-01-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300072-game-72-front-cover.jpg"
+    },
+    {
+        "id": 73,
+        "titolo": "Game 73",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 39.99,
+        "genere": "FPS",
+        "dataUscita": "2021-02-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300073-game-73-front-cover.jpg"
+    },
+    {
+        "id": 74,
+        "titolo": "Game 74",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 49.99,
+        "genere": "Strategy",
+        "dataUscita": "2021-03-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300074-game-74-front-cover.jpg"
+    },
+    {
+        "id": 75,
+        "titolo": "Game 75",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 29.99,
+        "genere": "Action",
+        "dataUscita": "2021-04-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300075-game-75-front-cover.jpg"
+    },
+    {
+        "id": 76,
+        "titolo": "Game 76",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 39.99,
+        "genere": "Adventure",
+        "dataUscita": "2021-05-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300076-game-76-front-cover.jpg"
+    },
+    {
+        "id": 77,
+        "titolo": "Game 77",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 49.99,
+        "genere": "RPG",
+        "dataUscita": "2021-06-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300077-game-77-front-cover.jpg"
+    },
+    {
+        "id": 78,
+        "titolo": "Game 78",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 29.99,
+        "genere": "FPS",
+        "dataUscita": "2021-07-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300078-game-78-front-cover.jpg"
+    },
+    {
+        "id": 79,
+        "titolo": "Game 79",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 39.99,
+        "genere": "Strategy",
+        "dataUscita": "2021-08-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300079-game-79-front-cover.jpg"
+    },
+    {
+        "id": 80,
+        "titolo": "Game 80",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 49.99,
+        "genere": "Action",
+        "dataUscita": "2021-09-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300080-game-80-front-cover.jpg"
+    },
+    {
+        "id": 81,
+        "titolo": "Game 81",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 29.99,
+        "genere": "Adventure",
+        "dataUscita": "2021-10-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300081-game-81-front-cover.jpg"
+    },
+    {
+        "id": 82,
+        "titolo": "Game 82",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 39.99,
+        "genere": "RPG",
+        "dataUscita": "2021-11-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300082-game-82-front-cover.jpg"
+    },
+    {
+        "id": 83,
+        "titolo": "Game 83",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 49.99,
+        "genere": "FPS",
+        "dataUscita": "2021-12-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300083-game-83-front-cover.jpg"
+    },
+    {
+        "id": 84,
+        "titolo": "Game 84",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 29.99,
+        "genere": "Strategy",
+        "dataUscita": "2021-01-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300084-game-84-front-cover.jpg"
+    },
+    {
+        "id": 85,
+        "titolo": "Game 85",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 39.99,
+        "genere": "Action",
+        "dataUscita": "2021-02-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300085-game-85-front-cover.jpg"
+    },
+    {
+        "id": 86,
+        "titolo": "Game 86",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 49.99,
+        "genere": "Adventure",
+        "dataUscita": "2021-03-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300086-game-86-front-cover.jpg"
+    },
+    {
+        "id": 87,
+        "titolo": "Game 87",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 29.99,
+        "genere": "RPG",
+        "dataUscita": "2021-04-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300087-game-87-front-cover.jpg"
+    },
+    {
+        "id": 88,
+        "titolo": "Game 88",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 39.99,
+        "genere": "FPS",
+        "dataUscita": "2021-05-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300088-game-88-front-cover.jpg"
+    },
+    {
+        "id": 89,
+        "titolo": "Game 89",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 49.99,
+        "genere": "Strategy",
+        "dataUscita": "2021-06-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300089-game-89-front-cover.jpg"
+    },
+    {
+        "id": 90,
+        "titolo": "Game 90",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 29.99,
+        "genere": "Action",
+        "dataUscita": "2021-07-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300090-game-90-front-cover.jpg"
+    },
+    {
+        "id": 91,
+        "titolo": "Game 91",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 39.99,
+        "genere": "Adventure",
+        "dataUscita": "2021-08-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300091-game-91-front-cover.jpg"
+    },
+    {
+        "id": 92,
+        "titolo": "Game 92",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 49.99,
+        "genere": "RPG",
+        "dataUscita": "2021-09-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300092-game-92-front-cover.jpg"
+    },
+    {
+        "id": 93,
+        "titolo": "Game 93",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 29.99,
+        "genere": "FPS",
+        "dataUscita": "2021-10-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300093-game-93-front-cover.jpg"
+    },
+    {
+        "id": 94,
+        "titolo": "Game 94",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 39.99,
+        "genere": "Strategy",
+        "dataUscita": "2021-11-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300094-game-94-front-cover.jpg"
+    },
+    {
+        "id": 95,
+        "titolo": "Game 95",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 49.99,
+        "genere": "Action",
+        "dataUscita": "2021-12-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300095-game-95-front-cover.jpg"
+    },
+    {
+        "id": 96,
+        "titolo": "Game 96",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 29.99,
+        "genere": "Adventure",
+        "dataUscita": "2021-01-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300096-game-96-front-cover.jpg"
+    },
+    {
+        "id": 97,
+        "titolo": "Game 97",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 39.99,
+        "genere": "RPG",
+        "dataUscita": "2021-02-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300097-game-97-front-cover.jpg"
+    },
+    {
+        "id": 98,
+        "titolo": "Game 98",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 49.99,
+        "genere": "FPS",
+        "dataUscita": "2021-03-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300098-game-98-front-cover.jpg"
+    },
+    {
+        "id": 99,
+        "titolo": "Game 99",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 29.99,
+        "genere": "Strategy",
+        "dataUscita": "2021-04-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300099-game-99-front-cover.jpg"
+    },
+    {
+        "id": 100,
+        "titolo": "Game 100",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 39.99,
+        "genere": "Action",
+        "dataUscita": "2021-05-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300100-game-100-front-cover.jpg"
+    },
+    {
+        "id": 101,
+        "titolo": "The Witcher 3: Wild Hunt",
+        "piattaforma": "PC, PS4, Xbox One, Nintendo Switch",
+        "prezzo": 39.99,
+        "genere": "Action RPG",
+        "dataUscita": "2015-05-19",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300000-the-witcher-3-wild-hunt-playstation-4-front-cover.jpg"
+    },
+    {
+        "id": 102,
+        "titolo": "Elden Ring",
+        "piattaforma": "PC, PS4, PS5, Xbox One, Xbox Series X/S",
+        "prezzo": 59.99,
+        "genere": "Action RPG",
+        "dataUscita": "2022-02-25",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/775869-elden-ring-xbox-series-x-front-cover.jpg"
+    },
+    {
+        "id": 103,
+        "titolo": "Halo Infinite",
+        "piattaforma": "PC, Xbox One, Xbox Series X/S",
+        "prezzo": 69.99,
+        "genere": "First-Person Shooter",
+        "dataUscita": "2021-12-08",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/733732-halo-infinite-xbox-series-x-front-cover.jpg"
+    },
+    {
+        "id": 104,
+        "titolo": "Super Mario Odyssey",
+        "piattaforma": "Nintendo Switch",
+        "prezzo": 59.99,
+        "genere": "Platform",
+        "dataUscita": "2017-10-27",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/435360-super-mario-odyssey-nintendo-switch-front-cover.jpg"
+    },
+    {
+        "id": 105,
+        "titolo": "Horizon Forbidden West",
+        "piattaforma": "PS4, PS5",
+        "prezzo": 69.99,
+        "genere": "Action RPG",
+        "dataUscita": "2022-02-18",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/773372-horizon-forbidden-west-playstation-5-front-cover.jpg"
+    },
+    {
+        "id": 106,
+        "titolo": "Final Fantasy VII Remake",
+        "piattaforma": "PS4, PS5, PC",
+        "prezzo": 59.99,
+        "genere": "Action RPG",
+        "dataUscita": "2020-04-10",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/655528-final-fantasy-vii-remake-playstation-4-front-cover.jpg"
+    },
+    {
+        "id": 107,
+        "titolo": "Doom Eternal",
+        "piattaforma": "PC, PS4, PS5, Xbox One, Xbox Series X/S, Nintendo Switch",
+        "prezzo": 59.99,
+        "genere": "First-Person Shooter",
+        "dataUscita": "2020-03-20",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/700711-doom-eternal-playstation-4-front-cover.jpg"
+    },
+    {
+        "id": 108,
+        "titolo": "Ghost of Tsushima",
+        "piattaforma": "PS4, PS5",
+        "prezzo": 59.99,
+        "genere": "Action Adventure",
+        "dataUscita": "2020-07-17",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/698308-ghost-of-tsushima-playstation-4-front-cover.jpg"
+    },
+    {
+        "id": 109,
+        "titolo": "Spider-Man: Miles Morales",
+        "piattaforma": "PS5",
+        "prezzo": 49.99,
+        "genere": "Action Adventure",
+        "dataUscita": "2020-11-12",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/800000-spider-man-miles-morales-playstation-5-front-cover.jpg"
+    },
+    {
+        "id": 110,
+        "titolo": "Assassin's Creed Valhalla",
+        "piattaforma": "PC, PS4, PS5, Xbox One, Xbox Series X/S",
+        "prezzo": 59.99,
+        "genere": "Action RPG",
+        "dataUscita": "2020-11-10",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/700000-assassin-s-creed-valhalla-playstation-4-front-cover.jpg"
+    },
+    {
+        "id": 111,
+        "titolo": "Game 11",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 49.99,
+        "genere": "Adventure",
+        "dataUscita": "2021-12-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300011-game-11-front-cover.jpg"
+    },
+    {
+        "id": 112,
+        "titolo": "Game 12",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 29.99,
+        "genere": "RPG",
+        "dataUscita": "2021-01-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300012-game-12-front-cover.jpg"
+    },
+    {
+        "id": 113,
+        "titolo": "Game 13",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 39.99,
+        "genere": "FPS",
+        "dataUscita": "2021-02-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300013-game-13-front-cover.jpg"
+    },
+    {
+        "id": 114,
+        "titolo": "Game 14",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 49.99,
+        "genere": "Strategy",
+        "dataUscita": "2021-03-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300014-game-14-front-cover.jpg"
+    },
+    {
+        "id": 115,
+        "titolo": "Game 15",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 29.99,
+        "genere": "Action",
+        "dataUscita": "2021-04-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300015-game-15-front-cover.jpg"
+    },
+    {
+        "id": 116,
+        "titolo": "Game 16",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 39.99,
+        "genere": "Adventure",
+        "dataUscita": "2021-05-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300016-game-16-front-cover.jpg"
+    },
+    {
+        "id": 117,
+        "titolo": "Game 17",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 49.99,
+        "genere": "RPG",
+        "dataUscita": "2021-06-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300017-game-17-front-cover.jpg"
+    },
+    {
+        "id": 118,
+        "titolo": "Game 18",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 29.99,
+        "genere": "FPS",
+        "dataUscita": "2021-07-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300018-game-18-front-cover.jpg"
+    },
+    {
+        "id": 119,
+        "titolo": "Game 19",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 39.99,
+        "genere": "Strategy",
+        "dataUscita": "2021-08-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300019-game-19-front-cover.jpg"
+    },
+    {
+        "id": 120,
+        "titolo": "Game 20",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 49.99,
+        "genere": "Action",
+        "dataUscita": "2021-09-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300020-game-20-front-cover.jpg"
+    },
+    {
+        "id": 121,
+        "titolo": "Game 21",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 29.99,
+        "genere": "Adventure",
+        "dataUscita": "2021-10-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300021-game-21-front-cover.jpg"
+    },
+    {
+        "id": 122,
+        "titolo": "Game 22",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 39.99,
+        "genere": "RPG",
+        "dataUscita": "2021-11-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300022-game-22-front-cover.jpg"
+    },
+    {
+        "id": 123,
+        "titolo": "Game 23",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 49.99,
+        "genere": "FPS",
+        "dataUscita": "2021-12-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300023-game-23-front-cover.jpg"
+    },
+    {
+        "id": 124,
+        "titolo": "Game 24",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 29.99,
+        "genere": "Strategy",
+        "dataUscita": "2021-01-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300024-game-24-front-cover.jpg"
+    },
+    {
+        "id": 125,
+        "titolo": "Game 25",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 39.99,
+        "genere": "Action",
+        "dataUscita": "2021-02-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300025-game-25-front-cover.jpg"
+    },
+    {
+        "id": 126,
+        "titolo": "Game 26",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 49.99,
+        "genere": "Adventure",
+        "dataUscita": "2021-03-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300026-game-26-front-cover.jpg"
+    },
+    {
+        "id": 127,
+        "titolo": "Game 27",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 29.99,
+        "genere": "RPG",
+        "dataUscita": "2021-04-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300027-game-27-front-cover.jpg"
+    },
+    {
+        "id": 128,
+        "titolo": "Game 28",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 39.99,
+        "genere": "FPS",
+        "dataUscita": "2021-05-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300028-game-28-front-cover.jpg"
+    },
+    {
+        "id": 129,
+        "titolo": "Game 29",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 49.99,
+        "genere": "Strategy",
+        "dataUscita": "2021-06-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300029-game-29-front-cover.jpg"
+    },
+    {
+        "id": 130,
+        "titolo": "Game 30",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 29.99,
+        "genere": "Action",
+        "dataUscita": "2021-07-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300030-game-30-front-cover.jpg"
+    },
+    {
+        "id": 131,
+        "titolo": "Game 31",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 39.99,
+        "genere": "Adventure",
+        "dataUscita": "2021-08-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300031-game-31-front-cover.jpg"
+    },
+    {
+        "id": 132,
+        "titolo": "Game 32",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 49.99,
+        "genere": "RPG",
+        "dataUscita": "2021-09-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300032-game-32-front-cover.jpg"
+    },
+    {
+        "id": 133,
+        "titolo": "Game 33",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 29.99,
+        "genere": "FPS",
+        "dataUscita": "2021-10-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300033-game-33-front-cover.jpg"
+    },
+    {
+        "id": 134,
+        "titolo": "Game 34",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 39.99,
+        "genere": "Strategy",
+        "dataUscita": "2021-11-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300034-game-34-front-cover.jpg"
+    },
+    {
+        "id": 135,
+        "titolo": "Game 35",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 49.99,
+        "genere": "Action",
+        "dataUscita": "2021-12-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300035-game-35-front-cover.jpg"
+    },
+    {
+        "id": 136,
+        "titolo": "Game 36",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 29.99,
+        "genere": "Adventure",
+        "dataUscita": "2021-01-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300036-game-36-front-cover.jpg"
+    },
+    {
+        "id": 137,
+        "titolo": "Game 37",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 39.99,
+        "genere": "RPG",
+        "dataUscita": "2021-02-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300037-game-37-front-cover.jpg"
+    },
+    {
+        "id": 138,
+        "titolo": "Game 38",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 49.99,
+        "genere": "FPS",
+        "dataUscita": "2021-03-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300038-game-38-front-cover.jpg"
+    },
+    {
+        "id": 139,
+        "titolo": "Game 39",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 29.99,
+        "genere": "Strategy",
+        "dataUscita": "2021-04-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300039-game-39-front-cover.jpg"
+    },
+    {
+        "id": 140,
+        "titolo": "Game 40",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 39.99,
+        "genere": "Action",
+        "dataUscita": "2021-05-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300040-game-40-front-cover.jpg"
+    },
+    {
+        "id": 141,
+        "titolo": "Game 41",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 49.99,
+        "genere": "Adventure",
+        "dataUscita": "2021-06-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300041-game-41-front-cover.jpg"
+    },
+    {
+        "id": 142,
+        "titolo": "Game 42",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 29.99,
+        "genere": "RPG",
+        "dataUscita": "2021-07-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300042-game-42-front-cover.jpg"
+    },
+    {
+        "id": 143,
+        "titolo": "Game 43",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 39.99,
+        "genere": "FPS",
+        "dataUscita": "2021-08-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300043-game-43-front-cover.jpg"
+    },
+    {
+        "id": 144,
+        "titolo": "Game 44",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 49.99,
+        "genere": "Strategy",
+        "dataUscita": "2021-09-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300044-game-44-front-cover.jpg"
+    },
+    {
+        "id": 145,
+        "titolo": "Game 45",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 29.99,
+        "genere": "Action",
+        "dataUscita": "2021-10-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300045-game-45-front-cover.jpg"
+    },
+    {
+        "id": 146,
+        "titolo": "Game 46",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 39.99,
+        "genere": "Adventure",
+        "dataUscita": "2021-11-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300046-game-46-front-cover.jpg"
+    },
+    {
+        "id": 147,
+        "titolo": "Game 47",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 49.99,
+        "genere": "RPG",
+        "dataUscita": "2021-12-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300047-game-47-front-cover.jpg"
+    },
+    {
+        "id": 148,
+        "titolo": "Game 48",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 29.99,
+        "genere": "FPS",
+        "dataUscita": "2021-01-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300048-game-48-front-cover.jpg"
+    },
+    {
+        "id": 149,
+        "titolo": "Game 49",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 39.99,
+        "genere": "Strategy",
+        "dataUscita": "2021-02-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300049-game-49-front-cover.jpg"
+    },
+    {
+        "id": 150,
+        "titolo": "Game 50",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 49.99,
+        "genere": "Action",
+        "dataUscita": "2021-03-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300050-game-50-front-cover.jpg"
+    },
+    {
+        "id": 151,
+        "titolo": "Game 51",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 29.99,
+        "genere": "Adventure",
+        "dataUscita": "2021-04-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300051-game-51-front-cover.jpg"
+    },
+    {
+        "id": 152,
+        "titolo": "Game 52",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 39.99,
+        "genere": "RPG",
+        "dataUscita": "2021-05-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300052-game-52-front-cover.jpg"
+    },
+    {
+        "id": 153,
+        "titolo": "Game 53",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 49.99,
+        "genere": "FPS",
+        "dataUscita": "2021-06-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300053-game-53-front-cover.jpg"
+    },
+    {
+        "id": 154,
+        "titolo": "Game 54",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 29.99,
+        "genere": "Strategy",
+        "dataUscita": "2021-07-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300054-game-54-front-cover.jpg"
+    },
+    {
+        "id": 155,
+        "titolo": "Game 55",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 39.99,
+        "genere": "Action",
+        "dataUscita": "2021-08-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300055-game-55-front-cover.jpg"
+    },
+    {
+        "id": 156,
+        "titolo": "Game 56",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 49.99,
+        "genere": "Adventure",
+        "dataUscita": "2021-09-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300056-game-56-front-cover.jpg"
+    },
+    {
+        "id": 157,
+        "titolo": "Game 57",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 29.99,
+        "genere": "RPG",
+        "dataUscita": "2021-10-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300057-game-57-front-cover.jpg"
+    },
+    {
+        "id": 158,
+        "titolo": "Game 58",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 39.99,
+        "genere": "FPS",
+        "dataUscita": "2021-11-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300058-game-58-front-cover.jpg"
+    },
+    {
+        "id": 159,
+        "titolo": "Game 59",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 49.99,
+        "genere": "Strategy",
+        "dataUscita": "2021-12-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300059-game-59-front-cover.jpg"
+    },
+    {
+        "id": 160,
+        "titolo": "Game 60",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 29.99,
+        "genere": "Action",
+        "dataUscita": "2021-01-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300060-game-60-front-cover.jpg"
+    },
+    {
+        "id": 161,
+        "titolo": "Game 61",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 39.99,
+        "genere": "Adventure",
+        "dataUscita": "2021-02-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300061-game-61-front-cover.jpg"
+    },
+    {
+        "id": 162,
+        "titolo": "Game 62",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 49.99,
+        "genere": "RPG",
+        "dataUscita": "2021-03-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300062-game-62-front-cover.jpg"
+    },
+    {
+        "id": 163,
+        "titolo": "Game 63",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 29.99,
+        "genere": "FPS",
+        "dataUscita": "2021-04-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300063-game-63-front-cover.jpg"
+    },
+    {
+        "id": 164,
+        "titolo": "Game 64",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 39.99,
+        "genere": "Strategy",
+        "dataUscita": "2021-05-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300064-game-64-front-cover.jpg"
+    },
+    {
+        "id": 165,
+        "titolo": "Game 65",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 49.99,
+        "genere": "Action",
+        "dataUscita": "2021-06-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300065-game-65-front-cover.jpg"
+    },
+    {
+        "id": 166,
+        "titolo": "Game 66",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 29.99,
+        "genere": "Adventure",
+        "dataUscita": "2021-07-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300066-game-66-front-cover.jpg"
+    },
+    {
+        "id": 167,
+        "titolo": "Game 67",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 39.99,
+        "genere": "RPG",
+        "dataUscita": "2021-08-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300067-game-67-front-cover.jpg"
+    },
+    {
+        "id": 168,
+        "titolo": "Game 68",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 49.99,
+        "genere": "FPS",
+        "dataUscita": "2021-09-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300068-game-68-front-cover.jpg"
+    },
+    {
+        "id": 169,
+        "titolo": "Game 69",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 29.99,
+        "genere": "Strategy",
+        "dataUscita": "2021-10-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300069-game-69-front-cover.jpg"
+    },
+    {
+        "id": 170,
+        "titolo": "Game 70",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 39.99,
+        "genere": "Action",
+        "dataUscita": "2021-11-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300070-game-70-front-cover.jpg"
+    },
+    {
+        "id": 171,
+        "titolo": "Game 71",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 49.99,
+        "genere": "Adventure",
+        "dataUscita": "2021-12-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300071-game-71-front-cover.jpg"
+    },
+    {
+        "id": 172,
+        "titolo": "Game 72",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 29.99,
+        "genere": "RPG",
+        "dataUscita": "2021-01-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300072-game-72-front-cover.jpg"
+    },
+    {
+        "id": 173,
+        "titolo": "Game 73",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 39.99,
+        "genere": "FPS",
+        "dataUscita": "2021-02-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300073-game-73-front-cover.jpg"
+    },
+    {
+        "id": 174,
+        "titolo": "Game 74",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 49.99,
+        "genere": "Strategy",
+        "dataUscita": "2021-03-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300074-game-74-front-cover.jpg"
+    },
+    {
+        "id": 175,
+        "titolo": "Game 75",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 29.99,
+        "genere": "Action",
+        "dataUscita": "2021-04-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300075-game-75-front-cover.jpg"
+    },
+    {
+        "id": 176,
+        "titolo": "Game 76",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 39.99,
+        "genere": "Adventure",
+        "dataUscita": "2021-05-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300076-game-76-front-cover.jpg"
+    },
+    {
+        "id": 177,
+        "titolo": "Game 77",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 49.99,
+        "genere": "RPG",
+        "dataUscita": "2021-06-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300077-game-77-front-cover.jpg"
+    },
+    {
+        "id": 178,
+        "titolo": "Game 78",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 29.99,
+        "genere": "FPS",
+        "dataUscita": "2021-07-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300078-game-78-front-cover.jpg"
+    },
+    {
+        "id": 179,
+        "titolo": "Game 79",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 39.99,
+        "genere": "Strategy",
+        "dataUscita": "2021-08-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300079-game-79-front-cover.jpg"
+    },
+    {
+        "id": 180,
+        "titolo": "Game 80",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 49.99,
+        "genere": "Action",
+        "dataUscita": "2021-09-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300080-game-80-front-cover.jpg"
+    },
+    {
+        "id": 181,
+        "titolo": "Game 81",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 29.99,
+        "genere": "Adventure",
+        "dataUscita": "2021-10-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300081-game-81-front-cover.jpg"
+    },
+    {
+        "id": 182,
+        "titolo": "Game 82",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 39.99,
+        "genere": "RPG",
+        "dataUscita": "2021-11-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300082-game-82-front-cover.jpg"
+    },
+    {
+        "id": 183,
+        "titolo": "Game 83",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 49.99,
+        "genere": "FPS",
+        "dataUscita": "2021-12-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300083-game-83-front-cover.jpg"
+    },
+    {
+        "id": 184,
+        "titolo": "Game 84",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 29.99,
+        "genere": "Strategy",
+        "dataUscita": "2021-01-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300084-game-84-front-cover.jpg"
+    },
+    {
+        "id": 185,
+        "titolo": "Game 85",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 39.99,
+        "genere": "Action",
+        "dataUscita": "2021-02-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300085-game-85-front-cover.jpg"
+    },
+    {
+        "id": 186,
+        "titolo": "Game 86",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 49.99,
+        "genere": "Adventure",
+        "dataUscita": "2021-03-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300086-game-86-front-cover.jpg"
+    },
+    {
+        "id": 187,
+        "titolo": "Game 87",
+        "piattaforma": "PC, PS4, Xbox One",
+        "prezzo": 29.99,
+        "genere": "RPG",
+        "dataUscita": "2021-04-15",
+        "copertinaUrl": "https://www.mobygames.com/images/covers/l/300087-game-87-front-cover.jpg"
+    }
+]

@@ -6,11 +6,8 @@ import axios from 'axios';
 
 const Profilo = () => {
 
-  const [videogiochi, setVideogiochi] = useState([]);
-  const [pannello,setPannello] = useState(true)
-  const[ordini,setOrdini] = useState(false);
-  const[wishlist,setWishlist] = useState(false);
-  const[libreria,setLibreria] = useState(false);
+
+  const [sezioneAttiva, setSezioneAttiva] = useState("pannello");
 
   const loadVideogiochi = async () => {
     try {
@@ -29,39 +26,68 @@ const Profilo = () => {
   return (
     <>
       <Container sm className="ContainerProfilo">
-        <Row style={{ width: "100%" }}>
-          <Col className="col-12 mt-3">
-            <h1 className="text-white mb-3">Welcome Back :</h1>
-            <div className="d-flex align-items-center ">
-              <Link to={"/"} style={{ textDecoration: "none" }}><p className="LinkP mb-0 text-white fs-5">Home</p></Link><span className="text-white mx-2 fs-5"> {">"} </span>
-              <p className="LinkP mb-0 text-white fs-5"> Profilo</p>
+      <Row style={{ width: "100%" }}>
+        <Col className="col-12 mt-3 text-start">
+          <h1 className="text-white mb-3">Welcome | Welcom  Back :</h1>
+          <div className="d-flex align-items-start mb-5 justify-content-start">
+            <Link to="/" className="LinkP mb-0 text-white fs-5">
+              Home
+            </Link>
+            <span className="text-white mx-2 fs-5">{">"}</span>
+            <p className="LinkP mb-0 text-white fs-5">Profilo</p>
+          </div>
+          <div className="text-white d-flex flex-column align-items-center">
+            <img
+              src="../src/assets/avatar2.jpg"
+              height="120px"
+              width="130px"
+              className="rounded-circle my-3"
+              alt="avatar"
+            />
+            <p className="fw-5 fs-2">Gabriele Cipolloni</p>
+          </div>
+        </Col>
+        <Col className="col-12 mt-4">
+          <div className="d-lg-flex d-none flex-row justify-content-between">
+            <div className="d-flex">
+              {["pannello", "ordini", "wishlist", "libreria", "recensioni"].map((sezione) => (
+                <button
+                  key={sezione}
+                  className={`ProfiloLink ${sezioneAttiva === sezione ? "active" : ""}`}
+                  onClick={() => setSezioneAttiva(sezione)}
+                >
+                  {sezione.charAt(0).toUpperCase() + sezione.slice(1)}
+                </button>
+              ))}
             </div>
-            <div className="text-white d-flex flex-column align-items-center">
-              <img src="../src/assets/avatar2.jpg" height={"120px"} width={"130px"} className="rounded-circle my-3" alt="avatar picture" />
-              <p className="fw-5 fs-2">ercipo0099</p>
+            <div className="d-flex align-items-center">
+              <i className="bi bi-gear text-white fs-4"></i>
+              <button className="ProfiloLink">Settings</button>
             </div>
-          </Col>
-          <Col className="col-12 mt-4">
-            <div className="d-flex flex-row justify-content-between">
-              <div className="d-flex">
-                <div className="d-flex align-items-center">
-                  <p className="ProfiloLink">Pannello </p>
-                  <i className="bi bi-chevron-right text-white ms-2"></i>
-                </div>
-                <p className="ProfiloLink">I miei Ordini</p>
-                <p className="ProfiloLink">Whishlist</p>
-                <p className="ProfiloLink">Libreria</p>
-                <p className="ProfiloLink">Recensioni</p>
-              </div>
-              <div className="d-flex align-items-center">
-                <i className="bi bi-gear text-white"></i>
-                <p className="ProfiloLink">Settings</p>
-              </div>
-            </div>
-            <hr className="hr"/>
-          </Col>
-        </Row>
-      </Container>
+          </div>
+          <hr className="hr" />
+          <div className="text-white mt-4">
+            {sezioneAttiva === "pannello" && 
+            <>
+            <Row className="g-3">
+              <Col className="col-12 col-md-6 p-3 py-4 rounded-2 bg-secondary d-flex align-items-center justify-content-center">
+              <p className="text-white mb-0 fs-5 fw-semi-bold">Profilo creato il: 19/11/2024</p>
+              </Col>
+              <Col className="col-12 col-md-6 p-3 py-4 rounded-2 d-flex bg-secondary align-items-center justify-content-center">
+              <p className="text-white mb-0 fs-5 fw-semi-bold">Pagamenti totali di : 139.98 EUR</p>
+              </Col>
+            </Row>
+            
+            </>
+            }
+            {sezioneAttiva === "ordini" && <p>Ecco i tuoi ordini.</p>}
+            {sezioneAttiva === "wishlist" && <p>Lista desideri.</p>}
+            {sezioneAttiva === "libreria" && <p>La tua libreria giochi.</p>}
+            {sezioneAttiva === "recensioni" && <p>Le tue recensioni.</p>}
+          </div>
+        </Col>
+      </Row>
+    </Container>
     </>
   );
 };

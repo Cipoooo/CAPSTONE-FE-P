@@ -22,6 +22,7 @@ import PS5 from './components/PS5/Ps5.jsx';
 import Nintendo from './components/Nintendo/Nintendo.jsx';
 import PC from './components/PC/PC.jsx';
 import NotFound from './components/NotFound/NotFound.jsx';
+import About from './components/About/About.jsx';
 
 
 const App = () => {
@@ -47,6 +48,7 @@ const App = () => {
       <MyNavbar></MyNavbar>
       <Routes>
         <Route path="/" element={<MyMain/>}></Route>
+        <Route path="/about" element={<About></About>}></Route>
         <Route path='/carrello' element={<Carrello></Carrello>}></Route>
         <Route path='/profilo' element={<Profilo></Profilo>}></Route>
         <Route path='/game/:id' element={<GameDetails></GameDetails>}></Route>

@@ -22,7 +22,7 @@ const Footer = () =>{
             <a href="" className="FooterLinks">Gift Cards</a>
           </div>
           <div className="col-6 col-sm-6 col-md-4 col-lg-3">
-            <a href="" className="FooterLinks">About us</a>
+            <a href="/about" className="FooterLinks">About us</a>
           </div>
           <div className="col-6 col-sm-6 col-md-4 col-lg-3">
             <a href="" className="FooterLinks">Terms of use</a>
