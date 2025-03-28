@@ -55,7 +55,7 @@ const Carrello = () =>{
                 </div> : 
                 
                 <div>
-                {videogiochi.slice(0,2).map((videogioco,i) => (
+                {videogiochi.slice(0,3).map((videogioco,i) => (
                     <div className="ListItem">
                         <div className="d-flex justify-content-start align-items-center">
                             <img className=" me-5" src={videogioco.copertinaUrl} width={120} height={120} alt="Copertina videogiooc" />
@@ -79,7 +79,7 @@ const Carrello = () =>{
                 <h1  className="text-white fs-2 fw-semibold my-3 me-5">Riepilogo Ordine:</h1>
                 {isBagEmpty !==true ?
                 <div className="d-flex flex-column" style={{marginRight:"90px"}}>
-                  <p className="text-white">Oggetto({"Carrello.length"})</p>
+                  <p className="text-white">Oggetto|i({"Carrello.length"})</p>
                   <hr className="w-100 text-white border-solid mt-0"/>
                   <div className="d-flex flex-column ">
                     <p className="m-0 fs-5 text-white p-0"> Totale ordine:</p>
